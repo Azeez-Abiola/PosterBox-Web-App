@@ -1,0 +1,35 @@
+/* color palette from <https://github.com/vuejs/theme> */
+
+:root {
+}
+
+/* semantic color variables for this project */
+:root {
+  --primary-red: #aa0000;
+  --primary-white: #fafafa;
+  --text-black: #2a2a2a;
+  --text-grey: #7b7b7b;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+  }
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  font-weight: normal;
+}
+
+body {
+  min-height: 100vh;
+
+  transition: color 0.5s, background-color 0.5s;
+
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
