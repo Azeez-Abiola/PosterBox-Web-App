@@ -1,178 +1,528 @@
-<template><template><template><template><template><template><template>
+<template><template><template>
 
   <section class="py-20 bg-gradient-to-br from-purple-50 via-blue-50 to-indigo-50 relative overflow-hidden">
 
-    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative">  <section class="py-20 bg-gradient-to-br from-purple-50 via-blue-50 to-indigo-50 relative overflow-hidden">
+    <!-- Background decorative elements -->  <section class="py-20 bg-gradient-to-br from-purple-50 via-blue-50 to-indigo-50 relative overflow-hidden">  <section class="py-20 bg-gradient-to-br from-purple-50 via-blue-50 to-indigo-50 relative overflow-hidden">
 
-      
+    <div class="absolute inset-0 opacity-5">
 
-      <!-- Section Header -->    <div class="absolute inset-0 opacity-5">  <section class="py-20 bg-gradient-to-br from-purple-50 via-blue-50 to-indigo-50 relative overflow-hidden">
+      <div class="absolute top-10 left-10 w-64 h-64 bg-red-500 rounded-full blur-3xl"></div>    <!-- Background decorative elements -->    <!-- Background decorative elements -->
 
-      <div class="text-center mb-16 scroll-animate-up">
+      <div class="absolute bottom-10 right-10 w-64 h-64 bg-blue-500 rounded-full blur-3xl"></div>
 
-        <div class="inline-block mb-6">      <div class="absolute top-10 left-10 w-64 h-64 bg-red-500 rounded-full blur-3xl"></div>
+    </div>    <div class="absolute inset-0 opacity-5">    <div class="absolute inset-0 opacity-5">
 
-          <span class="text-indigo-600 text-sm font-semibold uppercase tracking-wider border border-indigo-200 px-4 py-2 rounded-full bg-white/50 backdrop-blur-sm font-inter">
 
-            Why Choose Us      <div class="absolute bottom-10 right-10 w-64 h-64 bg-blue-500 rounded-full blur-3xl"></div>    <!-- Background decoration -->  <section class="py-20 bg-gradient-to-br from-purple-50 via-blue-50 to-indigo-50">
+
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative">      <div class="absolute top-10 left-10 w-64 h-64 bg-red-500 rounded-full blur-3xl"></div>      <div class="absolute top-10 left-10 w-64 h-64 bg-red-500 rounded-full blur-3xl"></div>
+
+      <!-- Section Header -->
+
+      <div class="text-center mb-16 scroll-animate-up">      <div class="absolute bottom-10 right-10 w-64 h-64 bg-blue-500 rounded-full blur-3xl"></div>      <div class="absolute bottom-10 right-10 w-64 h-64 bg-blue-500 rounded-full blur-3xl"></div>
+
+        <div class="inline-block mb-6">
+
+          <span class="text-indigo-600 text-sm font-semibold uppercase tracking-wider border border-indigo-200 px-4 py-2 rounded-full bg-white/50 backdrop-blur-sm font-inter">    </div>    </div>
+
+            Why Choose Us
 
           </span>
 
-        </div>    </div>
+        </div>
+
+            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative">    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative">
 
         <h2 class="text-4xl md:text-5xl font-bold text-black mb-6 font-inter">
 
-          The <span class="text-indigo-600">Smart</span> Way to Deliver    <div class="absolute inset-0 opacity-5">
+          The <span class="text-indigo-600">Smart</span> Way to Deliver      <!-- Section Header -->      <!-- Section Header -->
 
         </h2>
 
-        <p class="text-xl text-gray-600 max-w-3xl mx-auto leading-relaxed font-opensans">    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative">
+              <div class="text-center mb-16 scroll-animate-up">
 
-          Join the revolution in package delivery. Experience the benefits of community-powered logistics.
+        <p class="text-xl text-gray-600 max-w-3xl mx-auto leading-relaxed font-opensans">
 
-        </p>      <div class="text-center mb-16">      <div class="absolute top-10 left-10 w-64 h-64 bg-red-500 rounded-full blur-3xl"></div>    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">  <section class="py-20 bg-gradient-to-br from-purple-50 via-blue-50 to-indigo-50">
+          Join the revolution in package delivery. Experience the benefits of community-powered logistics.        <div class="inline-block mb-6">      <div class="text-center mb-16 scroll-animate-up">
 
-      </div>
+        </p>
 
-        <h2 class="text-4xl font-bold text-black mb-6 font-inter">
+      </div>          <span class="text-indigo-600 text-sm font-semibold uppercase tracking-wider border border-indigo-200 px-4 py-2 rounded-full bg-white/50 backdrop-blur-sm font-inter">
 
-      <!-- Main Content Grid -->
 
-      <div class="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">          Why Choose PosterBox?      <div class="absolute bottom-10 right-10 w-64 h-64 bg-blue-500 rounded-full blur-3xl"></div>
 
-        
+      <!-- Main Content Grid -->            Why Choose Us        <div class="inline-block mb-6">      <div class="absolute top-10 left-10 w-64 h-64 bg-red-500 rounded-full blur-3xl"></div>
 
-        <!-- Visual Section -->        </h2>
+      <div class="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
 
-        <div class="relative scroll-animate-left">
+                  </span>
 
-          <!-- Background Pattern -->        <p class="text-xl text-gray-600 max-w-3xl mx-auto font-opensans">    </div>      <div class="text-center mb-16">
+        <!-- Left Side - Benefits -->
 
-          <div class="absolute inset-0 bg-gradient-to-br from-indigo-100 to-purple-100 rounded-3xl opacity-50 transform rotate-6"></div>
-
-          <div class="absolute inset-0 bg-gradient-to-br from-blue-100 to-indigo-100 rounded-3xl opacity-50 transform -rotate-3"></div>          Experience the future of package delivery with our innovative, community-driven platform
+        <div class="space-y-8 scroll-animate-left">        </div>          <span class="text-indigo-600 text-sm font-semibold uppercase tracking-wider border border-indigo-200 px-4 py-2 rounded-full bg-white/50 backdrop-blur-sm font-inter">
 
           
 
-          <!-- Main Content Card -->        </p>
+          <div class="bg-white/70 backdrop-blur-sm rounded-2xl p-8 shadow-xl border border-white/50 hover:shadow-2xl transition-all duration-300">        
 
-          <div class="relative bg-white rounded-3xl p-8 shadow-xl border border-gray-100">
+            <div class="flex items-start space-x-4">
 
-            <!-- Phone Mockup -->      </div>
+              <div class="bg-green-100 p-3 rounded-xl">        <h2 class="text-4xl md:text-5xl font-bold text-black mb-6 font-inter">            Why Choose Us      <div class="absolute bottom-10 right-10 w-64 h-64 bg-blue-500 rounded-full blur-3xl"></div>    <!-- Background decoration -->  <section class="py-20 bg-gradient-to-br from-purple-50 via-blue-50 to-indigo-50">
 
-            <div class="text-center mb-8">
+                <span class="text-2xl">💰</span>
 
-              <div class="inline-block relative">    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative">        <h2 class="text-4xl font-bold text-black mb-6 font-inter">    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">  <section class="py-20 bg-gradient-to-br from-purple-50 via-blue-50 to-indigo-50 relative overflow-hidden">  <section class="py-20 bg-gradient-to-br from-purple-50 via-blue-50 to-indigo-50 relative overflow-hidden">
+              </div>          The <span class="text-indigo-600">Smart</span> Way to Deliver
 
-                <img
+              <div>
 
-                  class="h-80 w-auto mx-auto object-cover rounded-2xl shadow-lg"      <div class="grid lg:grid-cols-2 gap-16 items-center">
+                <h3 class="text-xl font-semibold text-black mb-3 font-inter">Cost-Effective</h3>        </h2>          </span>
 
-                  alt="PosterBox Mobile App"
+                <p class="text-gray-600 leading-relaxed font-opensans">
 
-                  src="./phone.gif"        <div class="space-y-8">      <div class="text-center mb-16">
+                  Save up to 60% on traditional shipping costs while supporting travelers in your community.        
 
-                />
+                </p>
 
-                <!-- Floating UI Elements -->          <div class="bg-white/70 backdrop-blur-sm rounded-2xl p-8 shadow-xl border border-white/50 hover:shadow-2xl transition-all duration-300">
-
-                <div class="absolute -top-4 -right-4 bg-green-500 text-white px-3 py-2 rounded-xl text-sm font-bold shadow-lg animate-bounce">
-
-                  ✓ Delivered            <div class="flex items-start space-x-4">        <h2 class="text-4xl font-bold text-black mb-6 font-inter">          Why Choose <span class="text-indigo-600">PosterBox</span>
-
-                </div>
-
-                <div class="absolute top-1/3 -left-6 bg-blue-600 text-white px-3 py-2 rounded-xl text-sm font-bold shadow-lg animate-pulse">              <div class="bg-green-100 p-3 rounded-xl">
-
-                  📍 Live Tracking
-
-                </div>                <span class="text-2xl">💰</span>          Why Choose PosterBox?
-
-              </div>
-
-            </div>              </div>
-
-            
-
-            <!-- App Download -->              <div>        </h2>        </h2>      
-
-            <div class="text-center">
-
-              <p class="text-gray-600 mb-4 font-opensans">Download the PosterBox App</p>                <h3 class="text-xl font-semibold text-black mb-3 font-inter">Cost-Effective</h3>
-
-              <div class="flex justify-center space-x-4">
-
-                <img src="/src/views/HomeView/HeroSection/playStore.svg" alt="Google Play" class="h-12 cursor-pointer hover:opacity-80 transition-opacity" />                <p class="text-gray-600 leading-relaxed font-opensans">        <p class="text-xl text-gray-600 max-w-3xl mx-auto font-opensans">
-
-                <img src="/src/views/HomeView/HeroSection/appStore.svg" alt="App Store" class="h-12 cursor-pointer hover:opacity-80 transition-opacity" />
-
-              </div>                  Save up to 60% on traditional shipping costs while supporting travelers in your community.
+              </div>        <p class="text-xl text-gray-600 max-w-3xl mx-auto leading-relaxed font-opensans">        </div>    </div>
 
             </div>
 
-          </div>                </p>          Experience the future of package delivery with our innovative, community-driven platform        <p class="text-xl text-gray-600 max-w-3xl mx-auto font-opensans">
+          </div>          Join the revolution in package delivery. Experience the benefits of community-powered logistics.
 
-        </div>
 
-              </div>
 
-        <!-- Benefits Section -->
+          <div class="bg-white/70 backdrop-blur-sm rounded-2xl p-8 shadow-xl border border-white/50 hover:shadow-2xl transition-all duration-300">        </p>        <h2 class="text-4xl md:text-5xl font-bold text-black mb-6 font-inter">
 
-        <div class="space-y-8 scroll-animate-right">            </div>        </p>
+            <div class="flex items-start space-x-4">
 
-          
+              <div class="bg-blue-100 p-3 rounded-xl">      </div>
 
-          <!-- Benefit 1: Cost Savings -->          </div>
+                <span class="text-2xl">⚡</span>
 
-          <div class="group">
+              </div>          The <span class="text-indigo-600">Smart</span> Way to Deliver    <div class="absolute inset-0 opacity-5">
 
-            <div class="flex items-start space-x-6 p-6 bg-white rounded-2xl shadow-lg border border-gray-100 hover:shadow-xl transition-all duration-300 hover:scale-105">      </div>          Experience the future of package delivery      <!-- Section Header -->    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative">    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative">
+              <div>
 
-              <div class="flex-shrink-0">
+                <h3 class="text-xl font-semibold text-black mb-3 font-inter">Lightning Fast</h3>      <!-- Main Content Grid -->
 
-                <div class="w-14 h-14 bg-green-100 rounded-2xl flex items-center justify-center">          <div class="bg-white/70 backdrop-blur-sm rounded-2xl p-8 shadow-xl border border-white/50 hover:shadow-2xl transition-all duration-300">
+                <p class="text-gray-600 leading-relaxed font-opensans">
 
-                  <span class="text-2xl">💰</span>
+                  Get your packages delivered faster than traditional couriers with our network of travelers.      <div class="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">        </h2>
 
-                </div>            <div class="flex items-start space-x-4">
+                </p>
 
-              </div>
+              </div>        
 
-              <div>              <div class="bg-blue-100 p-3 rounded-xl">
+            </div>
 
-                <h3 class="text-xl font-bold text-black mb-2 font-inter">Save Up to 70%</h3>
+          </div>        <!-- Left Side - Benefits -->        <p class="text-xl text-gray-600 max-w-3xl mx-auto leading-relaxed font-opensans">    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative">
 
-                <p class="text-gray-600 font-opensans">Community-powered delivery costs significantly less than traditional courier services. Why pay more when you can pay less?</p>                <span class="text-2xl">⚡</span>      <div class="grid lg:grid-cols-2 gap-16 items-center">        </p>
 
-                <div class="mt-3 text-green-600 font-semibold text-sm font-inter">Average savings: ₦2,000 per delivery</div>
+
+          <div class="bg-white/70 backdrop-blur-sm rounded-2xl p-8 shadow-xl border border-white/50 hover:shadow-2xl transition-all duration-300">        <div class="space-y-8 scroll-animate-left">
+
+            <div class="flex items-start space-x-4">
+
+              <div class="bg-purple-100 p-3 rounded-xl">                    Join the revolution in package delivery. Experience the benefits of community-powered logistics.
+
+                <span class="text-2xl">🛡️</span>
+
+              </div>          <div class="bg-white/70 backdrop-blur-sm rounded-2xl p-8 shadow-xl border border-white/50 hover:shadow-2xl transition-all duration-300">
+
+              <div>
+
+                <h3 class="text-xl font-semibold text-black mb-3 font-inter">Secure & Insured</h3>            <div class="flex items-start space-x-4">        </p>      <div class="text-center mb-16">      <div class="absolute top-10 left-10 w-64 h-64 bg-red-500 rounded-full blur-3xl"></div>    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">  <section class="py-20 bg-gradient-to-br from-purple-50 via-blue-50 to-indigo-50">
+
+                <p class="text-gray-600 leading-relaxed font-opensans">
+
+                  Every package is fully insured and tracked with real-time updates for complete peace of mind.              <div class="bg-green-100 p-3 rounded-xl">
+
+                </p>
+
+              </div>                <span class="text-2xl">💰</span>      </div>
+
+            </div>
+
+          </div>              </div>
+
+
+
+          <div class="bg-white/70 backdrop-blur-sm rounded-2xl p-8 shadow-xl border border-white/50 hover:shadow-2xl transition-all duration-300">              <div>        <h2 class="text-4xl font-bold text-black mb-6 font-inter">
+
+            <div class="flex items-start space-x-4">
+
+              <div class="bg-red-100 p-3 rounded-xl">                <h3 class="text-xl font-semibold text-black mb-3 font-inter">Cost-Effective</h3>
+
+                <span class="text-2xl">🌍</span>
+
+              </div>                <p class="text-gray-600 leading-relaxed font-opensans">      <!-- Main Content Grid -->
+
+              <div>
+
+                <h3 class="text-xl font-semibold text-black mb-3 font-inter">Community Powered</h3>                  Save up to 60% on traditional shipping costs while supporting travelers in your community.
+
+                <p class="text-gray-600 leading-relaxed font-opensans">
+
+                  Connect with verified travelers and build a sustainable delivery ecosystem together.                </p>      <div class="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">          Why Choose PosterBox?      <div class="absolute bottom-10 right-10 w-64 h-64 bg-blue-500 rounded-full blur-3xl"></div>
+
+                </p>
 
               </div>              </div>
 
             </div>
 
-          </div>              <div>        <!-- Left Side - Benefits -->
+          </div>            </div>        
+
+        </div>
+
+          </div>
+
+        <!-- Right Side - Phone Mockup -->
+
+        <div class="relative scroll-animate-right">        <!-- Visual Section -->        </h2>
+
+          <div class="relative z-10">
+
+            <img           <div class="bg-white/70 backdrop-blur-sm rounded-2xl p-8 shadow-xl border border-white/50 hover:shadow-2xl transition-all duration-300">
+
+              src="./phone.gif" 
+
+              alt="PosterBox App"             <div class="flex items-start space-x-4">        <div class="relative scroll-animate-left">
+
+              class="h-80 w-auto mx-auto rounded-2xl shadow-lg" 
+
+            />              <div class="bg-blue-100 p-3 rounded-xl">
+
+          </div>
+
+                          <span class="text-2xl">⚡</span>          <!-- Background Pattern -->        <p class="text-xl text-gray-600 max-w-3xl mx-auto font-opensans">    </div>      <div class="text-center mb-16">
+
+          <!-- Floating elements -->
+
+          <div class="absolute top-10 -right-4 bg-white rounded-2xl p-4 shadow-xl animate-bounce animation-delay-1000">              </div>
+
+            <div class="flex items-center space-x-2">
+
+              <span class="text-2xl">📦</span>              <div>          <div class="absolute inset-0 bg-gradient-to-br from-indigo-100 to-purple-100 rounded-3xl opacity-50 transform rotate-6"></div>
+
+              <div>
+
+                <p class="text-sm font-semibold text-black">Package Delivered!</p>                <h3 class="text-xl font-semibold text-black mb-3 font-inter">Lightning Fast</h3>
+
+                <p class="text-xs text-gray-500">2 minutes ago</p>
+
+              </div>                <p class="text-gray-600 leading-relaxed font-opensans">          <div class="absolute inset-0 bg-gradient-to-br from-blue-100 to-indigo-100 rounded-3xl opacity-50 transform -rotate-3"></div>          Experience the future of package delivery with our innovative, community-driven platform
+
+            </div>
+
+          </div>                  Get your packages delivered faster than traditional couriers with our network of travelers.
+
+          
+
+          <div class="absolute bottom-20 -left-4 bg-white rounded-2xl p-4 shadow-xl animate-bounce animation-delay-2000">                </p>          
+
+            <div class="flex items-center space-x-2">
+
+              <span class="text-2xl">✈️</span>              </div>
+
+              <div>
+
+                <p class="text-sm font-semibold text-black">Traveler Available</p>            </div>          <!-- Main Content Card -->        </p>
+
+                <p class="text-xs text-gray-500">Lagos to Abuja</p>
+
+              </div>          </div>
+
+            </div>
+
+          </div>          <div class="relative bg-white rounded-3xl p-8 shadow-xl border border-gray-100">
+
+        </div>
+
+      </div>          <div class="bg-white/70 backdrop-blur-sm rounded-2xl p-8 shadow-xl border border-white/50 hover:shadow-2xl transition-all duration-300">
 
 
 
-          <!-- Benefit 2: Speed -->                <h3 class="text-xl font-semibold text-black mb-3 font-inter">Lightning Fast</h3>
+      <!-- Download Section -->            <div class="flex items-start space-x-4">            <!-- Phone Mockup -->      </div>
 
-          <div class="group">
+      <div class="mt-20 text-center scroll-animate-up">
 
-            <div class="flex items-start space-x-6 p-6 bg-white rounded-2xl shadow-lg border border-gray-100 hover:shadow-xl transition-all duration-300 hover:scale-105">                <p class="text-gray-600 leading-relaxed font-opensans">        <div class="space-y-8">      </div>      <div class="text-center mb-16 scroll-animate-up">
+        <h3 class="text-2xl font-bold text-black mb-8 font-inter">              <div class="bg-purple-100 p-3 rounded-xl">
 
-              <div class="flex-shrink-0">
+          Ready to revolutionize your deliveries?
 
-                <div class="w-14 h-14 bg-blue-100 rounded-2xl flex items-center justify-center">                  Get your packages delivered faster than traditional couriers with our network of travelers.
+        </h3>                <span class="text-2xl">🛡️</span>            <div class="text-center mb-8">
 
-                  <span class="text-2xl">⚡</span>
+        <div class="flex flex-col sm:flex-row gap-4 justify-center">
 
-                </div>                </p>          <div class="bg-white/70 backdrop-blur-sm rounded-2xl p-8 shadow-xl border border-white/50 hover:shadow-2xl transition-all duration-300">
+          <a href="#" class="inline-flex items-center justify-center bg-black text-white px-8 py-4 rounded-2xl hover:bg-gray-800 transition-colors">              </div>
+
+            <img src="/src/views/HomeView/HeroSection/appStore.svg" alt="Download on App Store" class="h-8">
+
+          </a>              <div>              <div class="inline-block relative">    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative">        <h2 class="text-4xl font-bold text-black mb-6 font-inter">    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">  <section class="py-20 bg-gradient-to-br from-purple-50 via-blue-50 to-indigo-50 relative overflow-hidden">  <section class="py-20 bg-gradient-to-br from-purple-50 via-blue-50 to-indigo-50 relative overflow-hidden">
+
+          <a href="#" class="inline-flex items-center justify-center bg-black text-white px-8 py-4 rounded-2xl hover:bg-gray-800 transition-colors">
+
+            <img src="/src/views/HomeView/HeroSection/playStore.svg" alt="Get it on Google Play" class="h-8">                <h3 class="text-xl font-semibold text-black mb-3 font-inter">Secure & Insured</h3>
+
+          </a>
+
+        </div>                <p class="text-gray-600 leading-relaxed font-opensans">                <img
+
+      </div>
+
+    </div>                  Every package is fully insured and tracked with real-time updates for complete peace of mind.
+
+  </section>
+
+</template>                </p>                  class="h-80 w-auto mx-auto object-cover rounded-2xl shadow-lg"      <div class="grid lg:grid-cols-2 gap-16 items-center">
+
+
+
+<script setup lang="ts">              </div>
+
+import { onMounted } from 'vue'
+
+            </div>                  alt="PosterBox Mobile App"
+
+onMounted(() => {
+
+  const observer = new IntersectionObserver((entries) => {          </div>
+
+    entries.forEach((entry) => {
+
+      if (entry.isIntersecting) {                  src="./phone.gif"        <div class="space-y-8">      <div class="text-center mb-16">
+
+        entry.target.classList.remove('animate-slide-in', 'animate-rise')
+
+        ;(entry.target as HTMLElement).offsetHeight          <div class="bg-white/70 backdrop-blur-sm rounded-2xl p-8 shadow-xl border border-white/50 hover:shadow-2xl transition-all duration-300">
+
+        if (entry.target.classList.contains('scroll-animate-left') || entry.target.classList.contains('scroll-animate-right')) {
+
+          entry.target.classList.add('animate-slide-in')            <div class="flex items-start space-x-4">                />
+
+        } else {
+
+          entry.target.classList.add('animate-rise')              <div class="bg-red-100 p-3 rounded-xl">
+
+        }
+
+      } else {                <span class="text-2xl">🌍</span>                <!-- Floating UI Elements -->          <div class="bg-white/70 backdrop-blur-sm rounded-2xl p-8 shadow-xl border border-white/50 hover:shadow-2xl transition-all duration-300">
+
+        entry.target.classList.remove('animate-slide-in', 'animate-rise')
+
+      }              </div>
+
+    })
+
+  }, { threshold: 0.1 })              <div>                <div class="absolute -top-4 -right-4 bg-green-500 text-white px-3 py-2 rounded-xl text-sm font-bold shadow-lg animate-bounce">
+
+
+
+  document.querySelectorAll('.scroll-animate, .scroll-animate-left, .scroll-animate-right, .scroll-animate-up').forEach((el) => {                <h3 class="text-xl font-semibold text-black mb-3 font-inter">Community Powered</h3>
+
+    observer.observe(el)
+
+  })                <p class="text-gray-600 leading-relaxed font-opensans">                  ✓ Delivered            <div class="flex items-start space-x-4">        <h2 class="text-4xl font-bold text-black mb-6 font-inter">          Why Choose <span class="text-indigo-600">PosterBox</span>
+
+})
+
+</script>                  Connect with verified travelers and build a sustainable delivery ecosystem together.
+
+
+
+<style scoped>                </p>                </div>
+
+.animation-delay-1000 {
+
+  animation-delay: 1s;              </div>
+
+}
+
+            </div>                <div class="absolute top-1/3 -left-6 bg-blue-600 text-white px-3 py-2 rounded-xl text-sm font-bold shadow-lg animate-pulse">              <div class="bg-green-100 p-3 rounded-xl">
+
+.animation-delay-2000 {
+
+  animation-delay: 2s;          </div>
+
+}
+
+</style>        </div>                  📍 Live Tracking
+
+
+
+        <!-- Right Side - Phone Mockup -->                </div>                <span class="text-2xl">💰</span>          Why Choose PosterBox?
+
+        <div class="relative scroll-animate-right">
+
+          <div class="relative z-10">              </div>
+
+            <img 
+
+              src="./phone.gif"             </div>              </div>
+
+              alt="PosterBox App" 
+
+              class="h-80 w-auto mx-auto rounded-2xl shadow-lg"             
+
+            />
+
+          </div>            <!-- App Download -->              <div>        </h2>        </h2>      
+
+          
+
+          <!-- Floating elements -->            <div class="text-center">
+
+          <div class="absolute top-10 -right-4 bg-white rounded-2xl p-4 shadow-xl animate-bounce animation-delay-1000">
+
+            <div class="flex items-center space-x-2">              <p class="text-gray-600 mb-4 font-opensans">Download the PosterBox App</p>                <h3 class="text-xl font-semibold text-black mb-3 font-inter">Cost-Effective</h3>
+
+              <span class="text-2xl">📦</span>
+
+              <div>              <div class="flex justify-center space-x-4">
+
+                <p class="text-sm font-semibold text-black">Package Delivered!</p>
+
+                <p class="text-xs text-gray-500">2 minutes ago</p>                <img src="/src/views/HomeView/HeroSection/playStore.svg" alt="Google Play" class="h-12 cursor-pointer hover:opacity-80 transition-opacity" />                <p class="text-gray-600 leading-relaxed font-opensans">        <p class="text-xl text-gray-600 max-w-3xl mx-auto font-opensans">
 
               </div>
 
-              <div>              </div>
+            </div>                <img src="/src/views/HomeView/HeroSection/appStore.svg" alt="App Store" class="h-12 cursor-pointer hover:opacity-80 transition-opacity" />
 
-                <h3 class="text-xl font-bold text-black mb-2 font-inter">Lightning Fast</h3>
+          </div>
+
+                        </div>                  Save up to 60% on traditional shipping costs while supporting travelers in your community.
+
+          <div class="absolute bottom-20 -left-4 bg-white rounded-2xl p-4 shadow-xl animate-bounce animation-delay-2000">
+
+            <div class="flex items-center space-x-2">            </div>
+
+              <span class="text-2xl">✈️</span>
+
+              <div>          </div>                </p>          Experience the future of package delivery with our innovative, community-driven platform        <p class="text-xl text-gray-600 max-w-3xl mx-auto font-opensans">
+
+                <p class="text-sm font-semibold text-black">Traveler Available</p>
+
+                <p class="text-xs text-gray-500">Lagos to Abuja</p>        </div>
+
+              </div>
+
+            </div>              </div>
+
+          </div>
+
+        </div>        <!-- Benefits Section -->
+
+      </div>
+
+        <div class="space-y-8 scroll-animate-right">            </div>        </p>
+
+      <!-- Download Section -->
+
+      <div class="mt-20 text-center scroll-animate-up">          
+
+        <h3 class="text-2xl font-bold text-black mb-8 font-inter">
+
+          Ready to revolutionize your deliveries?          <!-- Benefit 1: Cost Savings -->          </div>
+
+        </h3>
+
+        <div class="flex flex-col sm:flex-row gap-4 justify-center">          <div class="group">
+
+          <a href="#" class="inline-flex items-center justify-center bg-black text-white px-8 py-4 rounded-2xl hover:bg-gray-800 transition-colors">
+
+            <img src="/src/views/HomeView/HeroSection/appStore.svg" alt="Download on App Store" class="h-8">            <div class="flex items-start space-x-6 p-6 bg-white rounded-2xl shadow-lg border border-gray-100 hover:shadow-xl transition-all duration-300 hover:scale-105">      </div>          Experience the future of package delivery      <!-- Section Header -->    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative">    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative">
+
+          </a>
+
+          <a href="#" class="inline-flex items-center justify-center bg-black text-white px-8 py-4 rounded-2xl hover:bg-gray-800 transition-colors">              <div class="flex-shrink-0">
+
+            <img src="/src/views/HomeView/HeroSection/playStore.svg" alt="Get it on Google Play" class="h-8">
+
+          </a>                <div class="w-14 h-14 bg-green-100 rounded-2xl flex items-center justify-center">          <div class="bg-white/70 backdrop-blur-sm rounded-2xl p-8 shadow-xl border border-white/50 hover:shadow-2xl transition-all duration-300">
+
+        </div>
+
+      </div>                  <span class="text-2xl">💰</span>
+
+    </div>
+
+  </section>                </div>            <div class="flex items-start space-x-4">
+
+</template>
+
+              </div>
+
+<script setup lang="ts">
+
+import { onMounted } from 'vue'              <div>              <div class="bg-blue-100 p-3 rounded-xl">
+
+
+
+onMounted(() => {                <h3 class="text-xl font-bold text-black mb-2 font-inter">Save Up to 70%</h3>
+
+  // Setup scroll animations
+
+  const observer = new IntersectionObserver((entries) => {                <p class="text-gray-600 font-opensans">Community-powered delivery costs significantly less than traditional courier services. Why pay more when you can pay less?</p>                <span class="text-2xl">⚡</span>      <div class="grid lg:grid-cols-2 gap-16 items-center">        </p>
+
+    entries.forEach((entry) => {
+
+      if (entry.isIntersecting) {                <div class="mt-3 text-green-600 font-semibold text-sm font-inter">Average savings: ₦2,000 per delivery</div>
+
+        entry.target.classList.remove('animate-slide-in', 'animate-rise')
+
+        ;(entry.target as HTMLElement).offsetHeight              </div>              </div>
+
+        if (entry.target.classList.contains('scroll-animate-left') || entry.target.classList.contains('scroll-animate-right')) {
+
+          entry.target.classList.add('animate-slide-in')            </div>
+
+        } else {
+
+          entry.target.classList.add('animate-rise')          </div>              <div>        <!-- Left Side - Benefits -->
+
+        }
+
+      } else {
+
+        entry.target.classList.remove('animate-slide-in', 'animate-rise')
+
+      }          <!-- Benefit 2: Speed -->                <h3 class="text-xl font-semibold text-black mb-3 font-inter">Lightning Fast</h3>
+
+    })
+
+  }, { threshold: 0.1 })          <div class="group">
+
+
+
+  document.querySelectorAll('.scroll-animate, .scroll-animate-left, .scroll-animate-right, .scroll-animate-up').forEach((el) => {            <div class="flex items-start space-x-6 p-6 bg-white rounded-2xl shadow-lg border border-gray-100 hover:shadow-xl transition-all duration-300 hover:scale-105">                <p class="text-gray-600 leading-relaxed font-opensans">        <div class="space-y-8">      </div>      <div class="text-center mb-16 scroll-animate-up">
+
+    observer.observe(el)
+
+  })              <div class="flex-shrink-0">
+
+})
+
+</script>                <div class="w-14 h-14 bg-blue-100 rounded-2xl flex items-center justify-center">                  Get your packages delivered faster than traditional couriers with our network of travelers.
+
+
+
+<style scoped>                  <span class="text-2xl">⚡</span>
+
+.animation-delay-1000 {
+
+  animation-delay: 1s;                </div>                </p>          <div class="bg-white/70 backdrop-blur-sm rounded-2xl p-8 shadow-xl border border-white/50 hover:shadow-2xl transition-all duration-300">
+
+}
+
+              </div>
+
+.animation-delay-2000 {
+
+  animation-delay: 2s;              <div>              </div>
+
+}
+
+</style>                <h3 class="text-xl font-bold text-black mb-2 font-inter">Lightning Fast</h3>
 
                 <p class="text-gray-600 font-opensans">Same-day delivery available with our network of travelers. Real-time tracking keeps you informed every step of the way.</p>            </div>            <div class="flex items-start space-x-4">
 
