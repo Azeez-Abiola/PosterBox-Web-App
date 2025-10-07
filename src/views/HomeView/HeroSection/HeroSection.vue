@@ -1,144 +1,239 @@
 <template>
-  <section
-    class="h-[816px] bg-[var(--primary-red)] relative overflow-hidden pt-[160px]"
-  >
-    <img alt="circle-1" src="./circle.svg" class="absolute top-[64px] left-0" />
-    <img
-      alt="circle-1"
-      src="./circle-2.svg"
-      class="absolute bottom-[19px] right-0"
-    />
-    <div
-      class="max-w-[1440px] h-[568px] mx-auto px-2.5 sm:px-[70px] flex justify-between relative"
-    >
-      <section class="max-w-[522px] pt-[100px] sm:mt-[99px] relative">
-        <img src="./dot.svg" class="absolute top-0 left-0 hidden md:block" />
-        <h1
-          class="text-white text-[35px] font-roboto font-semibold sm:text-[45px] mb-[60px]"
-        >
-          Send your Package any where in the country.
-        </h1>
-        <div
-          class="flex items-center download-sec gap-x-1 sm:gap-x-[30px] text-white"
-        >
-          <button>
-            <img alt="svg" class="text-[1px]" src="./playStore.svg" />
-            <div>
-              <span class="font-roboto">GET IT ON</span>
-              <p>Google Play</p>
+  <section class="relative overflow-hidden bg-gradient-to-br from-[var(--primary-red)] to-red-600 min-h-screen">
+    <!-- Background decorative elements -->
+    <img alt="circle-1" src="./circle.svg" class="absolute top-16 left-0 opacity-20" />
+    <img alt="circle-2" src="./circle-2.svg" class="absolute bottom-5 right-0 opacity-20" />
+    <img src="./dot.svg" class="absolute top-32 left-16 hidden md:block opacity-30" />
+    
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20">
+      <div class="flex flex-col lg:flex-row items-center gap-12 min-h-[80vh] scroll-animate">
+        
+        <!-- Content Section -->
+        <div class="lg:w-1/2 text-white space-y-8">
+          <div class="space-y-6">
+            <h1 class="text-4xl sm:text-5xl lg:text-6xl font-bold leading-tight font-inter">
+              Send packages anywhere in the country — 
+              <span class="text-yellow-300">
+                <span class="switching-text" ref="switchingText">fast</span>
+              </span>
+            </h1>
+            <p class="text-xl sm:text-2xl text-red-100 leading-relaxed font-opensans">
+              A community-powered delivery app where senders save and travelers earn.
+            </p>
+          </div>
+
+          <!-- CTA Buttons -->
+          <div class="flex flex-col sm:flex-row gap-4">
+            <button class="bg-white text-[var(--primary-red)] px-8 py-4 rounded-xl font-bold text-lg hover:bg-gray-100 transition-all duration-300 transform hover:scale-105 shadow-lg font-inter">
+              Get the App
+            </button>
+            <button class="border-2 border-white text-white px-8 py-4 rounded-xl font-semibold text-lg hover:bg-white hover:text-[var(--primary-red)] transition-all duration-300 font-opensans">
+              Make a Request
+            </button>
+          </div>
+
+          <!-- Microcopy -->
+          <div class="flex flex-wrap gap-4 text-red-100 text-sm">
+            <span class="flex items-center gap-2">
+              <i class="pi pi-check-circle text-yellow-300"></i>
+              Real-time tracking
+            </span>
+            <span class="flex items-center gap-2">
+              <i class="pi pi-check-circle text-yellow-300"></i>
+              Insurance options
+            </span>
+            <span class="flex items-center gap-2">
+              <i class="pi pi-check-circle text-yellow-300"></i>
+              24/7 support
+            </span>
+          </div>
+
+          <!-- Download Buttons -->
+          <div class="pt-8">
+            <p class="text-red-100 mb-4">Download the app:</p>
+            <div class="flex flex-col sm:flex-row gap-4">
+              <button class="flex items-center gap-3 bg-black bg-opacity-20 backdrop-blur-sm border border-white border-opacity-30 rounded-lg px-4 py-3 hover:bg-opacity-30 transition-all duration-300">
+                <img alt="Google Play" src="./playStore.svg" class="w-8 h-8" />
+                <div class="text-left">
+                  <div class="text-xs text-red-100">GET IT ON</div>
+                  <div class="text-sm font-semibold">Google Play</div>
+                </div>
+              </button>
+              <button class="flex items-center gap-3 bg-black bg-opacity-20 backdrop-blur-sm border border-white border-opacity-30 rounded-lg px-4 py-3 hover:bg-opacity-30 transition-all duration-300">
+                <img alt="App Store" src="./appStore.svg" class="w-8 h-8" />
+                <div class="text-left">
+                  <div class="text-xs text-red-100">Download on the</div>
+                  <div class="text-sm font-semibold">App Store</div>
+                </div>
+              </button>
             </div>
-          </button>
-          <button>
-            <img alt="svg" class="text-[1px]" src="./appStore.svg" />
-            <div>
-              <span class="font-roboto">Download on the</span>
-              <p>App Store</p>
-            </div>
-          </button>
+          </div>
         </div>
-      </section>
-      <section class="lg:block hidden">
-        <img src="./iPhone-13.png" alt="hero-img" class="w-[358px] h-[568px]" />
-        <div class="mt-[38px] w-fit mx-auto flex gap-x-[40px] items-center">
-          <a
-            target="_blank"
-            rel="noopener noreferrer"
-            href="https://www.linkedin.com/company/myposterbox/"
-          >
-            <svg
-              width="25"
-              height="24"
-              viewBox="0 0 25 24"
-              fill="none"
-              xmlns="http://www.w3.org/2000/svg"
-            >
-              <path
-                d="M18.5 13.356V17.7924H15.9284V13.6524C15.9284 12.6132 15.5564 11.904 14.6252 11.904C13.9148 11.904 13.4912 12.3816 13.3052 12.8448C13.238 13.0104 13.22 13.2408 13.22 13.4712V17.7924H10.6472C10.6472 17.7924 10.682 10.782 10.6472 10.056H13.22V11.1516L13.2032 11.1768H13.22V11.1516C13.562 10.6236 14.1716 9.8736 15.5384 9.8736C17.2304 9.8736 18.5 10.98 18.5 13.356ZM7.9556 6.3252C7.076 6.3252 6.5 6.9036 6.5 7.662C6.5 8.406 7.0592 9 7.922 9H7.9388C8.8364 9 9.3944 8.4048 9.3944 7.662C9.3776 6.9036 8.8364 6.3252 7.9556 6.3252ZM6.6524 17.7924H9.2252V10.056H6.6524V17.7924Z"
-                fill="white"
-              />
-              <path
-                d="M5.3 2.4C4.66348 2.4 4.05303 2.65286 3.60294 3.10294C3.15286 3.55303 2.9 4.16348 2.9 4.8V19.2C2.9 19.8365 3.15286 20.447 3.60294 20.8971C4.05303 21.3471 4.66348 21.6 5.3 21.6H19.7C20.3365 21.6 20.947 21.3471 21.3971 20.8971C21.8471 20.447 22.1 19.8365 22.1 19.2V4.8C22.1 4.16348 21.8471 3.55303 21.3971 3.10294C20.947 2.65286 20.3365 2.4 19.7 2.4H5.3ZM5.3 0H19.7C20.973 0 22.1939 0.505713 23.0941 1.40589C23.9943 2.30606 24.5 3.52696 24.5 4.8V19.2C24.5 20.473 23.9943 21.6939 23.0941 22.5941C22.1939 23.4943 20.973 24 19.7 24H5.3C4.02696 24 2.80606 23.4943 1.90589 22.5941C1.00571 21.6939 0.5 20.473 0.5 19.2V4.8C0.5 3.52696 1.00571 2.30606 1.90589 1.40589C2.80606 0.505713 4.02696 0 5.3 0Z"
-                fill="white"
-              />
-            </svg>
-          </a>
-          <a
-            target="_blank"
-            rel="noopener noreferrer"
-            href="https://www.instagram.com/myposterbox?igsh=MXBvZ250d21oa3NnaQ%3D%3D&utm_source=qr"
-          >
-            <svg
-              width="25"
-              height="24"
-              viewBox="0 0 25 24"
-              fill="none"
-              xmlns="http://www.w3.org/2000/svg"
-            >
-              <path
-                d="M16.5013 12V11.999C16.5013 11.0738 16.1805 10.1772 15.5935 9.46196C15.0065 8.74675 14.1897 8.25718 13.2823 8.07667C12.3748 7.89615 11.4328 8.03586 10.6168 8.47198C9.80085 8.90811 9.16131 9.61367 8.80718 10.4685C8.45306 11.3232 8.40627 12.2744 8.67478 13.1598C8.94329 14.0452 9.51049 14.8101 10.2797 15.3242C11.049 15.8384 11.9727 16.0698 12.8935 15.9793C13.8143 15.8887 14.6752 15.4817 15.3295 14.8275C15.7008 14.4686 15.9959 14.0386 16.1972 13.5631C16.3986 13.0876 16.502 12.5764 16.5013 12.06L16.5003 11.997L16.5013 12ZM18.661 12C18.6562 13.4182 18.1601 14.791 17.2571 15.8846C16.3542 16.9782 15.1002 17.7252 13.7085 17.9984C12.3168 18.2715 10.8735 18.054 9.62412 17.3828C8.37476 16.7117 7.39658 15.6283 6.85605 14.3171C6.31551 13.0059 6.24602 11.5479 6.65941 10.1913C7.0728 8.83466 7.94351 7.66318 9.12337 6.87622C10.3032 6.08926 11.7193 5.73547 13.1307 5.87504C14.542 6.01461 15.8614 6.63892 16.8643 7.64173C17.4338 8.19435 17.8864 8.85582 18.1952 9.58682C18.504 10.3178 18.6628 11.1035 18.662 11.897L18.661 12.006V12.001V12ZM20.3477 5.59507V5.59707C20.3478 5.93017 20.2324 6.253 20.0212 6.51056C19.8099 6.76812 19.5159 6.94446 19.1892 7.00954C18.8626 7.07463 18.5234 7.02442 18.2296 6.86749C17.9358 6.71055 17.7055 6.45659 17.5779 6.14888C17.4504 5.84116 17.4334 5.49874 17.5301 5.17996C17.6267 4.86118 17.8308 4.58575 18.1077 4.40062C18.3847 4.21549 18.7172 4.1321 19.0487 4.16467C19.3802 4.19724 19.6902 4.34375 19.9258 4.57924C20.1817 4.83019 20.3407 5.18014 20.3407 5.56707V5.59607L20.3477 5.59507ZM12.509 2.15564L11.3142 2.14764C10.5903 2.14231 10.0407 2.14231 9.66547 2.14764C9.2902 2.15297 8.78762 2.16864 8.15772 2.19463C7.57282 2.21463 7.01791 2.27262 6.475 2.36461L6.54799 2.35461C6.12306 2.4246 5.74613 2.52458 5.38519 2.65756L5.42818 2.64356C4.91827 2.84854 4.45457 3.15355 4.06442 3.54061C3.67428 3.92766 3.36559 4.38892 3.15656 4.89718L3.14656 4.92418C3.01822 5.27544 2.92316 5.63797 2.86261 6.007L2.85761 6.04399C2.76868 6.56936 2.71557 7.10016 2.69863 7.63273L2.69763 7.65372C2.67164 8.28428 2.65597 8.78687 2.65064 9.16147C2.64531 9.53608 2.64531 10.0857 2.65064 10.8102C2.65597 11.5347 2.65864 11.933 2.65864 12.005C2.65864 12.077 2.65597 12.4753 2.65064 13.1998C2.64531 13.9243 2.64531 14.4739 2.65064 14.8485C2.65597 15.2231 2.67164 15.7257 2.69763 16.3563C2.71763 16.9412 2.77562 17.4961 2.86761 18.039L2.85761 17.966C2.9276 18.3909 3.02758 18.7679 3.16056 19.1288L3.14656 19.0858C3.35154 19.5957 3.65655 20.0594 4.0436 20.4496C4.43066 20.8397 4.89192 21.1484 5.40018 21.3574L5.42718 21.3674C5.74513 21.4864 6.12206 21.5864 6.51 21.6514L6.54699 21.6564C7.01591 21.7384 7.57082 21.7964 8.13473 21.8154L8.15572 21.8164C8.78629 21.8424 9.28887 21.858 9.66347 21.8634C10.0381 21.8687 10.5877 21.8687 11.3122 21.8634L12.5 21.8394L13.6948 21.8474C14.4187 21.8527 14.9683 21.8527 15.3435 21.8474C15.7188 21.842 16.2214 21.8264 16.8513 21.8004C17.4362 21.7804 17.9911 21.7224 18.534 21.6304L18.461 21.6404C18.8859 21.5704 19.2629 21.4704 19.6238 21.3374L19.5808 21.3514C20.0907 21.1465 20.5544 20.8414 20.9446 20.4544C21.3347 20.0673 21.6434 19.6061 21.8524 19.0978L21.8624 19.0708C21.9814 18.7529 22.0814 18.3759 22.1464 17.988L22.1514 17.951C22.2334 17.4821 22.2914 16.9272 22.3104 16.3633L22.3114 16.3423C22.3374 15.7117 22.353 15.2091 22.3584 14.8345C22.3637 14.4599 22.3637 13.9103 22.3584 13.1858C22.353 12.4613 22.3504 12.063 22.3504 11.991C22.3504 11.919 22.353 11.5207 22.3584 10.7962C22.3637 10.0717 22.3637 9.52208 22.3584 9.14748C22.353 8.77287 22.3374 8.27029 22.3114 7.63973C22.2914 7.05482 22.2334 6.49992 22.1414 5.95701L22.1514 6.02999C22.088 5.63357 21.9865 5.24417 21.8484 4.86719L21.8624 4.91018C21.6575 4.40027 21.3524 3.93657 20.9654 3.54642C20.5783 3.15628 20.1171 2.84759 19.6088 2.63856L19.5818 2.62856C19.2306 2.50023 18.868 2.40516 18.499 2.34461L18.462 2.33961C17.937 2.25073 17.4065 2.19761 16.8743 2.18064L16.8533 2.17964C16.2227 2.15364 15.7201 2.13798 15.3455 2.13264C14.9709 2.12731 14.4213 2.12731 13.6968 2.13264L12.509 2.15564ZM24.5 12C24.5 14.3849 24.4733 16.0357 24.42 16.9522C24.4673 17.881 24.3189 18.8094 23.9844 19.6772C23.6499 20.545 23.1368 21.3328 22.4784 21.9897C21.82 22.6465 21.0309 23.1576 20.1623 23.49C19.2936 23.8224 18.3649 23.9685 17.4362 23.919L17.4522 23.92C16.5357 23.9733 14.8849 24 12.5 24C10.1151 24 8.46434 23.9733 7.54783 23.92C6.619 23.9673 5.6906 23.8189 4.82281 23.4844C3.95501 23.1499 3.16717 22.6368 2.51034 21.9784C1.85351 21.32 1.34235 20.5309 1.00999 19.6623C0.677619 18.7936 0.531463 17.8649 0.580986 16.9362L0.579987 16.9522C0.526662 16.0357 0.5 14.3849 0.5 12C0.5 9.61506 0.526662 7.96434 0.579987 7.04782C0.532726 6.119 0.681145 5.1906 1.01563 4.3228C1.35011 3.45501 1.86319 2.66717 2.52162 2.01034C3.18005 1.35351 3.96914 0.842351 4.83775 0.509985C5.70636 0.177619 6.63511 0.0314627 7.56382 0.0809865L7.54783 0.0799867C8.46434 0.0266622 10.1151 0 12.5 0C14.8849 0 16.5357 0.0266622 17.4522 0.0799867C18.381 0.032726 19.3094 0.181145 20.1772 0.515627C21.045 0.850109 21.8328 1.36319 22.4897 2.02162C23.1465 2.68005 23.6576 3.46914 23.99 4.33775C24.3224 5.20636 24.4685 6.13511 24.419 7.06382L24.42 7.04782C24.4733 7.96367 24.5 9.6144 24.5 12Z"
-                fill="white"
-              />
-            </svg>
-          </a>
-          <a
-            href="https://www.facebook.com/Posterbox.ng?mibextid=LQQJ4d"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <svg
-              width="25"
-              height="24"
-              viewBox="0 0 25 24"
-              fill="none"
-              xmlns="http://www.w3.org/2000/svg"
-            >
-              <path
-                d="M2.68182 0C1.48836 0 0.5 0.988364 0.5 2.18182V21.8182C0.5 23.0116 1.48836 24 2.68182 24H22.3182C23.5116 24 24.5 23.0116 24.5 21.8182V2.18182C24.5 0.988364 23.5116 0 22.3182 0H2.68182ZM2.68182 2.18182H22.3182V21.8182H16.6585V14.4545H19.4884L19.8975 11.1818H16.6596V9.06764C16.6596 8.11418 16.8931 7.46618 18.2611 7.46618H20.0338V4.5C19.7316 4.46182 18.6833 4.39745 17.4778 4.39745C14.9633 4.39745 13.2505 5.91055 13.2505 8.72727V11.1818H10.3869V14.4545H13.2495V21.8182H2.68182V2.18182Z"
-                fill="white"
-              />
-            </svg>
-          </a>
-          <a
-            target="_blank"
-            rel="noopener noreferrer"
-            href="http://Twitter.com/myposterboxapp"
-          >
-            <svg
-              width="28"
-              height="24"
-              viewBox="0 0 28 24"
-              fill="none"
-              xmlns="http://www.w3.org/2000/svg"
-            >
-              <path
-                d="M27.4917 1.75291C27.4917 1.52828 27.4343 1.30767 27.3255 1.11348C27.2166 0.919289 27.0602 0.758441 26.872 0.647274C26.6838 0.536107 26.4706 0.478582 26.2541 0.480544C26.0375 0.482506 25.8253 0.543883 25.6391 0.658442C24.9206 1.10235 24.147 1.44232 23.3398 1.66891C22.1877 0.64352 20.7182 0.0824609 19.2001 0.088302C17.5349 0.090372 15.9355 0.763602 14.7398 1.96585C13.5442 3.16809 12.8457 4.80525 12.7919 6.53165C9.50837 5.98865 6.53242 4.21104 4.43159 1.53783C4.305 1.37872 4.14342 1.25347 3.96044 1.17263C3.77745 1.0918 3.57843 1.05774 3.38011 1.07332C3.18184 1.09034 2.99054 1.15717 2.82273 1.26803C2.65493 1.3789 2.51567 1.53046 2.41697 1.70964C1.91089 2.62581 1.62025 3.65286 1.56866 4.7074C1.51707 5.76194 1.70598 6.81424 2.12005 7.77883L2.1176 7.78011C1.93109 7.89898 1.77716 8.06558 1.6706 8.26392C1.56403 8.46227 1.5084 8.68569 1.50904 8.91275C1.50707 9.09957 1.51814 9.28628 1.54217 9.47144C1.66747 11.0725 2.35149 12.5711 3.46599 13.6864C3.39037 13.836 3.34425 13.9996 3.33035 14.1679C3.31644 14.3362 3.33503 14.5056 3.38502 14.6663C3.87085 16.237 4.90427 17.563 6.28302 18.385C4.88208 18.9468 3.36943 19.1426 1.87835 18.9551C1.6025 18.9195 1.32318 18.9822 1.08613 19.1327C0.849082 19.2833 0.668358 19.513 0.573557 19.784C0.478757 20.055 0.475498 20.3514 0.564316 20.6247C0.653134 20.8979 0.828764 21.1317 1.06244 21.2879C3.62698 23.0009 6.61292 23.9115 9.66321 23.9108C13.1222 23.9511 16.4971 22.8047 19.263 20.6497C22.0289 18.4948 24.0306 15.4521 24.9569 11.9951C25.3899 10.4892 25.611 8.92644 25.6133 7.35505L25.6121 7.10052C26.2527 6.38378 26.749 5.54158 27.0717 4.62331C27.3945 3.70503 27.5373 2.72916 27.4917 1.75291ZM23.4355 5.84061C23.2326 6.08905 23.1298 6.40899 23.1484 6.734C23.1607 6.94399 23.1594 7.15524 23.1594 7.35505C23.1568 8.68263 22.9692 10.0029 22.6024 11.2748C21.8462 14.2166 20.1601 16.8101 17.8141 18.6399C15.468 20.4697 12.5979 21.4299 9.66321 21.3668C8.60944 21.3669 7.55932 21.2383 6.53454 20.9837C7.8416 20.5465 9.06368 19.8726 10.1442 18.9933C10.3434 18.8308 10.4892 18.6083 10.5616 18.3564C10.6341 18.1045 10.6295 17.8355 10.5485 17.5863C10.4676 17.3372 10.3142 17.1202 10.1096 16.9652C9.9049 16.8101 9.65897 16.7246 9.40556 16.7204C8.38564 16.7038 7.41175 16.2772 6.68914 15.5305C6.87236 15.4948 7.05435 15.4503 7.23512 15.3968C7.50017 15.3187 7.73214 15.1502 7.89366 14.9187C8.05518 14.6871 8.13685 14.4059 8.12551 14.1203C8.11418 13.8348 8.0105 13.5615 7.83117 13.3445C7.65184 13.1275 7.40731 12.9794 7.13697 12.9241C6.54496 12.8028 5.98791 12.5415 5.50911 12.1605C5.03032 11.7796 4.64269 11.2892 4.37638 10.7275C4.59815 10.759 4.82134 10.7785 5.04505 10.7861C5.3109 10.7906 5.57124 10.7072 5.78832 10.5479C6.00539 10.3887 6.16793 10.1618 6.25235 9.90032C6.33339 9.63658 6.32932 9.35263 6.24075 9.09151C6.15219 8.83039 5.98396 8.60634 5.76158 8.45333C5.22165 8.08053 4.77931 7.57463 4.47418 6.98095C4.16905 6.38727 4.01066 5.72435 4.0132 5.05158C4.0132 4.96758 4.01566 4.88232 4.02057 4.7996C6.77068 7.46021 10.3379 9.02859 14.0937 9.22836C14.2833 9.23583 14.4721 9.19846 14.6457 9.11909C14.8194 9.03972 14.9734 8.92042 15.0961 8.77022C15.2176 8.61909 15.3036 8.4408 15.3475 8.24935C15.3913 8.0579 15.3918 7.85851 15.3488 7.66684C15.2786 7.36295 15.2427 7.0516 15.2421 6.73909C15.2434 5.65065 15.6608 4.60718 16.4028 3.83754C17.1448 3.0679 18.1508 2.63492 19.2001 2.63357C19.7402 2.63192 20.2747 2.74642 20.7699 2.96984C21.2651 3.19327 21.7103 3.52077 22.0773 3.93166C22.2188 4.08962 22.3969 4.2074 22.5947 4.27378C22.7925 4.34016 23.0034 4.35294 23.2073 4.3109C23.7113 4.20928 24.2081 4.07237 24.6943 3.90112C24.3628 4.60466 23.9392 5.25733 23.4355 5.84061Z"
-                fill="white"
-              />
-            </svg>
-          </a>
+
+        <!-- Phone Mockup Section -->
+        <div class="lg:w-1/2 flex justify-center">
+          <div class="relative hero-image-container">
+            <img 
+              src="./iPhone-13.png" 
+              alt="PosterBox App Screenshot" 
+              class="w-80 lg:w-96 h-auto drop-shadow-2xl hero-image" 
+              @mouseenter="startImageAnimation"
+              @mouseleave="stopImageAnimation"
+            />
+            <!-- Floating elements for visual appeal -->
+            <div class="absolute -top-4 -left-4 w-8 h-8 bg-yellow-300 rounded-full opacity-80 animate-pulse"></div>
+            <div class="absolute -bottom-4 -right-4 w-12 h-12 bg-white bg-opacity-20 rounded-full opacity-60 animate-bounce"></div>
+          </div>
         </div>
-      </section>
+      </div>
+    </div>
+
+    <!-- Social Links -->
+    <div class="absolute bottom-8 left-1/2 transform -translate-x-1/2">
+      <div class="flex gap-6 items-center">
+        <a
+          target="_blank"
+          rel="noopener noreferrer"
+          href="https://www.linkedin.com/company/myposterbox/"
+          class="text-white hover:text-yellow-300 transition-colors duration-300"
+        >
+          <svg width="25" height="24" viewBox="0 0 25 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M21.5 0H3.5C2.4 0 1.5 0.9 1.5 2V22C1.5 23.1 2.4 24 3.5 24H21.5C22.6 24 23.5 23.1 23.5 22V2C23.5 0.9 22.6 0 21.5 0ZM8.5 20H5.5V9H8.5V20ZM7 7.5C6.2 7.5 5.5 6.8 5.5 6S6.2 4.5 7 4.5S8.5 5.2 8.5 6S7.8 7.5 7 7.5ZM20.5 20H17.5V14.5C17.5 13.4 16.6 12.5 15.5 12.5S13.5 13.4 13.5 14.5V20H10.5V9H13.5V10.5C14.1 9.6 15.2 9 16.5 9C18.4 9 20.5 10.6 20.5 13V20Z" fill="currentColor"/>
+          </svg>
+        </a>
+        <span class="text-white text-sm font-opensans">Follow us for updates</span>
+      </div>
     </div>
   </section>
 </template>
-<script setup lang="ts"></script>
+
+<script setup lang="ts">
+import { ref, onMounted, onUnmounted } from 'vue'
+
+const switchingText = ref<HTMLElement>()
+let textInterval: ReturnType<typeof setInterval>
+
+const words = ['fast', 'safe', 'affordable']
+let currentIndex = 0
+
+// Text switching animation
+const switchText = () => {
+  if (switchingText.value) {
+    switchingText.value.style.opacity = '0'
+    setTimeout(() => {
+      if (switchingText.value) {
+        currentIndex = (currentIndex + 1) % words.length
+        switchingText.value.textContent = words[currentIndex]
+        switchingText.value.style.opacity = '1'
+      }
+    }, 200)
+  }
+}
+
+// Image hover animations
+const startImageAnimation = () => {
+  const image = document.querySelector('.hero-image') as HTMLElement
+  if (image) {
+    image.style.animation = 'heroHover 2s ease-in-out infinite'
+  }
+}
+
+const stopImageAnimation = () => {
+  const image = document.querySelector('.hero-image') as HTMLElement
+  if (image) {
+    image.style.animation = 'none'
+  }
+}
+
+onMounted(() => {
+  // Start text switching
+  textInterval = setInterval(switchText, 2000)
+  
+  // Setup repetitive scroll animations
+  const observer = new IntersectionObserver((entries) => {
+    entries.forEach((entry) => {
+      if (entry.isIntersecting) {
+        // Remove existing animation classes first
+        entry.target.classList.remove('animate-slide-in', 'animate-rise')
+        // Trigger reflow
+        ;(entry.target as HTMLElement).offsetHeight
+        // Add animation class again
+        if (entry.target.classList.contains('scroll-animate-left') || entry.target.classList.contains('scroll-animate-right')) {
+          entry.target.classList.add('animate-slide-in')
+        } else {
+          entry.target.classList.add('animate-rise')
+        }
+      } else {
+        // Reset animation when out of view
+        entry.target.classList.remove('animate-slide-in', 'animate-rise')
+      }
+    })
+  }, { threshold: 0.1 })
+  
+  // Observe all scroll animation elements
+  document.querySelectorAll('.scroll-animate, .scroll-animate-left, .scroll-animate-right, .scroll-animate-up').forEach((el) => {
+    observer.observe(el)
+  })
+})
+
+onUnmounted(() => {
+  if (textInterval) {
+    clearInterval(textInterval)
+  }
+})
+</script>
+
 <style scoped>
-* {
-  font-family: "Inter";
-}
-.download-sec > button {
-  @apply w-[170px] sm:w-[208px] h-[64px] bg-[var(--text-black)] rounded px-[18px] flex items-center gap-x-2 sm:gap-x-4;
+/* Font families */
+.font-inter {
+  font-family: 'Inter', sans-serif;
 }
 
-.download-sec > button > div {
-  @apply h-[42px] flex flex-col  gap-y-1 items-start;
+.font-opensans {
+  font-family: 'Open Sans', sans-serif;
 }
 
-.download-sec > button > div > span {
-  @apply text-[10px] sm:text-xs font-extralight;
+/* Text switching animation */
+.switching-text {
+  transition: opacity 0.3s ease-in-out;
+  display: inline-block;
+  min-width: 120px;
 }
 
-.download-sec > button > div > p {
-  @apply font-semibold text-sm sm:text-xl;
+/* Hero image hover animation */
+.hero-image {
+  transition: transform 0.3s ease;
+  cursor: pointer;
+}
+
+.hero-image-container:hover .hero-image {
+  transform: scale(1.05) rotate(2deg);
+}
+
+@keyframes heroHover {
+  0%, 100% { 
+    transform: scale(1.05) rotate(2deg) translateY(0px); 
+  }
+  25% { 
+    transform: scale(1.05) rotate(2deg) translateY(-10px) translateX(5px); 
+  }
+  50% { 
+    transform: scale(1.05) rotate(2deg) translateY(-5px) translateX(-5px); 
+  }
+  75% { 
+    transform: scale(1.05) rotate(2deg) translateY(-15px) translateX(3px); 
+  }
+}
+
+/* Scroll animations */
+.scroll-animate {
+  opacity: 0;
+  transform: translateY(50px);
+  transition: all 0.8s ease-out;
+}
+
+.animate-rise {
+  opacity: 1 !important;
+  transform: translateY(0) !important;
 }
 </style>

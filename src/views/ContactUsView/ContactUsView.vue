@@ -1,5 +1,5 @@
 <template>
-  <main class="bg-[var(--primary-white)] text-[var(--text-black)] relative">
+  <main class="bg-gradient-to-br from-indigo-50 via-purple-50 to-pink-50 text-[var(--text-black)] relative min-h-screen">
     <img
       class="absolute left-[-150px] top-[48px]"
       alt="circle"

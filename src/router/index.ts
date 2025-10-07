@@ -3,6 +3,10 @@ import HomeView from "../views/HomeView";
 
 const router = createRouter({
   history: createWebHistory(),
+  scrollBehavior(to, from, savedPosition) {
+    // Always scroll to top on route change
+    return { top: 0 }
+  },
   routes: [
     {
       path: "/",

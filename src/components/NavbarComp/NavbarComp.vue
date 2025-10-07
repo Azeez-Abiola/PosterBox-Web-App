@@ -3,56 +3,84 @@
     @change-visibilty="() => (showMobileNav = !showMobileNav)"
     v-if="showMobileNav"
   />
-  <header class="sticky z-50 top-0 bg-white">
+  <header class="sticky z-50 top-0 bg-white/95 backdrop-blur-sm border-b border-gray-100 shadow-sm">
     <nav
       class="h-[60px] mx-auto max-w-[1440px] pl-[20px] pr-[10px] sm:px-[70px] lg:h-[100px] w-[full] flex justify-between items-center overflow-hidden"
     >
-      <RouterLink to="/">
+      <RouterLink to="/" class="group">
         <img
-          alt="logo"
+          alt="PosterBox logo"
           src="@/assets/logo2.svg"
-          class="max-h-[58px] sm:pl-0 h-full items-center block"
+          class="max-h-[58px] sm:pl-0 h-full items-center block transition-transform duration-300 group-hover:scale-105"
         />
       </RouterLink>
-      <ul class="md:flex items-center gap-x-[99px] hidden">
+      
+      <!-- Desktop Navigation -->
+      <ul class="md:flex items-center gap-x-[60px] lg:gap-x-[80px] hidden">
         <li
           v-for="link in navlinks"
           :key="link.title"
           role="navigation"
-          :class="
-            isRouteActive(link.route)
-              ? 'text-[var(--primary-red)]'
-              : 'text-[var(--text-black)]'
-          "
-          class="text-base lg:text-[20px] font-semibold cursor-pointer hover:text-[var(--primary-red)]"
-          @click="$router.push(link.route)"
+          class="relative group"
         >
-          {{ link.title }}
+          <RouterLink 
+            :to="link.route"
+            :class="[
+              'text-base lg:text-[18px] font-semibold cursor-pointer transition-all duration-300 relative py-2 px-4 rounded-lg',
+              isRouteActive(link.route)
+                ? 'text-red-600 bg-red-50'
+                : 'text-gray-700 hover:text-red-600 hover:bg-gray-50'
+            ]"
+          >
+            {{ link.title }}
+            
+            <!-- Active indicator -->
+            <div 
+              v-if="isRouteActive(link.route)"
+              class="absolute bottom-0 left-1/2 transform -translate-x-1/2 w-6 h-0.5 bg-red-600 rounded-full"
+            ></div>
+            
+            <!-- Hover indicator -->
+            <div 
+              v-else
+              class="absolute bottom-0 left-1/2 transform -translate-x-1/2 w-0 h-0.5 bg-red-600 rounded-full transition-all duration-300 group-hover:w-6"
+            ></div>
+          </RouterLink>
         </li>
       </ul>
-      <div class="flex gap-x-5 items-center text-base lg:text-lg">
+      
+      <!-- Right side actions -->
+      <div class="flex gap-x-4 items-center text-base lg:text-lg">
         <button
           @click="$router.push('/contact')"
-          class="w-[100px] h-[36px] lg:w-[160px] rounded lg:h-[56px] bg-[var(--primary-red)] text-white font-medium"
+          class="group relative overflow-hidden w-[100px] h-[36px] lg:w-[140px] rounded-lg lg:h-[48px] bg-red-600 text-white font-semibold transition-all duration-300 hover:bg-red-700 hover:shadow-lg hover:scale-105"
         >
-          Contact Us
+          <span class="relative z-10">Contact Us</span>
+          <div class="absolute inset-0 bg-white/20 transform scale-x-0 group-hover:scale-x-100 transition-transform duration-300 origin-left"></div>
         </button>
+        
+        <!-- Mobile menu toggle -->
         <div class="md:hidden">
-          <i
-            v-if="!showMobileNav"
-            @click="showMobileNav = true"
-            class="pi pi-align-justify md:hidden cursor-pointer"
-          ></i>
-          <i
-            v-else
-            @click="showMobileNav = false"
-            class="pi pi-times cursor-pointer"
-          ></i>
+          <button
+            @click="showMobileNav = !showMobileNav"
+            class="p-2 rounded-lg hover:bg-gray-100 transition-colors duration-300"
+            :class="showMobileNav ? 'bg-gray-100' : ''"
+          >
+            <i
+              v-if="!showMobileNav"
+              class="pi pi-bars text-xl text-gray-700"
+            ></i>
+            <i
+              v-else
+              class="pi pi-times text-xl text-gray-700"
+            ></i>
+          </button>
         </div>
       </div>
     </nav>
   </header>
 </template>
+
 <script setup lang="ts">
 import { computed, ref } from "vue";
 import { navlinks, MobileNavComp } from ".";

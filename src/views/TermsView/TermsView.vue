@@ -1,5 +1,5 @@
 <template>
-  <main
+  <ma        PosterBox Terms and Conditionsn
     class="bg-[var(--primary-white)] text-[var(--text-black)] relative pt-10 pb-[88px]"
   >
     <img src="./circle-7.svg" alt="circle" class="absolute left-0 top-12 z-0" />

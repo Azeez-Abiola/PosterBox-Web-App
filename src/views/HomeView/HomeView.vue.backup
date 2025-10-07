@@ -81,6 +81,7 @@
       </div>
     </section>
 
+    <!-- Earn While Traveling -->
     <!-- Earn While Traveling Section -->
     <section class="py-20 bg-black relative overflow-hidden">
       <!-- Animated Background Elements -->
@@ -216,6 +217,262 @@
       </div>
     </section>
 
+    <!-- How It Works Section -->
+    <section class="relative z-10 py-20 bg-white">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        
+        <!-- Section Header -->
+        <div class="text-center mb-20">
+          <h2 class="text-4xl md:text-5xl font-bold text-black mb-6 font-inter">
+            How <span class="text-red-600">PosterBox</span> Works
+          </h2>
+          <p class="text-xl text-gray-600 max-w-3xl mx-auto leading-relaxed font-opensans">
+            Simple steps to connect senders with travelers for fast, secure package delivery
+          </p>
+        </div>
+        
+        <!-- For Senders - Image Left, Content Right -->
+        <div class="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center mb-20">
+          <!-- Image -->
+          <div class="scroll-animate-left">
+            <div class="relative group">
+              <img 
+                src="/images/mock2.png" 
+                alt="Send packages easily" 
+                class="w-full h-auto rounded-2xl shadow-xl transform group-hover:scale-105 transition-transform duration-300"
+              />
+              <div class="absolute inset-0 bg-gradient-to-t from-red-600/20 to-transparent rounded-2xl"></div>
+              <!-- Overlay Badge -->
+              <div class="absolute top-6 left-6 bg-red-600 text-white px-4 py-2 rounded-xl font-semibold text-sm">
+                📦 For Senders
+              </div>
+            </div>
+          </div>
+          
+          <!-- Content -->
+          <div class="scroll-animate-right">
+            <div class="space-y-6">
+              <div class="inline-block">
+                <span class="text-red-600 text-sm font-semibold uppercase tracking-wider border border-red-200 px-3 py-1 rounded-full font-inter">
+                  Step by Step
+                </span>
+              </div>
+              
+              <h3 class="text-4xl font-bold text-black font-inter">
+                Send Your <span class="text-red-600">Package</span>
+              </h3>
+              
+              <p class="text-xl text-gray-600 leading-relaxed font-opensans">
+                Post your package details, set your price, and choose from verified travelers 
+                going your route. Track your delivery in real-time.
+              </p>
+              
+              <!-- Steps List -->
+              <div class="space-y-4">
+                <div class="flex items-start space-x-4 p-4 bg-red-50 rounded-xl">
+                  <div class="w-8 h-8 bg-red-600 rounded-lg flex items-center justify-center text-white font-bold text-sm">
+                    1
+                  </div>
+                  <div>
+                    <h4 class="font-semibold text-gray-800 font-inter">Post Package Details</h4>
+                    <p class="text-gray-600 font-opensans">Upload photos, dimensions, pickup and delivery locations</p>
+                  </div>
+                </div>
+                
+                <div class="flex items-start space-x-4 p-4 bg-red-50 rounded-xl">
+                  <div class="w-8 h-8 bg-red-600 rounded-lg flex items-center justify-center text-white font-bold text-sm">
+                    2
+                  </div>
+                  <div>
+                    <h4 class="font-semibold text-gray-800 font-inter">Choose a Traveler</h4>
+                    <p class="text-gray-600 font-opensans">Select from verified travelers based on ratings and price</p>
+                  </div>
+                </div>
+                
+                <div class="flex items-start space-x-4 p-4 bg-red-50 rounded-xl">
+                  <div class="w-8 h-8 bg-red-600 rounded-lg flex items-center justify-center text-white font-bold text-sm">
+                    3
+                  </div>
+                  <div>
+                    <h4 class="font-semibold text-gray-800 font-inter">Track & Receive</h4>
+                    <p class="text-gray-600 font-opensans">Real-time GPS tracking until safe delivery</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+        <!-- For Travelers - Content Left, Image Right -->
+        <div class="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
+          <!-- Content -->
+          <div class="scroll-animate-left lg:order-1">
+            <div class="space-y-6">
+              <div class="inline-block">
+                <span class="text-blue-600 text-sm font-semibold uppercase tracking-wider border border-blue-200 px-3 py-1 rounded-full font-inter">
+                  Earn While You Travel
+                </span>
+              </div>
+              
+              <h3 class="text-4xl font-bold text-black font-inter">
+                Become a <span class="text-blue-600">Traveler</span>
+              </h3>
+              
+              <p class="text-xl text-gray-600 leading-relaxed font-opensans">
+                Turn your existing travel plans into earning opportunities. Deliver packages 
+                along your route and get paid instantly upon delivery.
+              </p>
+              
+              <!-- Steps List -->
+              <div class="space-y-4">
+                <div class="flex items-start space-x-4 p-4 bg-blue-50 rounded-xl">
+                  <div class="w-8 h-8 bg-blue-600 rounded-lg flex items-center justify-center text-white font-bold text-sm">
+                    1
+                  </div>
+                  <div>
+                    <h4 class="font-semibold text-gray-800 font-inter">Set Your Route</h4>
+                    <p class="text-gray-600 font-opensans">Add your travel plans and available space</p>
+                  </div>
+                </div>
+                
+                <div class="flex items-start space-x-4 p-4 bg-blue-50 rounded-xl">
+                  <div class="w-8 h-8 bg-blue-600 rounded-lg flex items-center justify-center text-white font-bold text-sm">
+                    2
+                  </div>
+                  <div>
+                    <h4 class="font-semibold text-gray-800 font-inter">Accept Requests</h4>
+                    <p class="text-gray-600 font-opensans">Choose delivery requests that match your route</p>
+                  </div>
+                </div>
+                
+                <div class="flex items-start space-x-4 p-4 bg-blue-50 rounded-xl">
+                  <div class="w-8 h-8 bg-blue-600 rounded-lg flex items-center justify-center text-white font-bold text-sm">
+                    3
+                  </div>
+                  <div>
+                    <h4 class="font-semibold text-gray-800 font-inter">Deliver & Earn</h4>
+                    <p class="text-gray-600 font-opensans">Complete delivery and receive instant payment</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          
+          <!-- Image -->
+          <div class="scroll-animate-right lg:order-2">
+            <div class="relative group">
+              <img 
+                src="/images/mock3.png" 
+                alt="Earn while traveling" 
+                class="w-full h-auto rounded-2xl shadow-xl transform group-hover:scale-105 transition-transform duration-300"
+              />
+              <div class="absolute inset-0 bg-gradient-to-t from-blue-600/20 to-transparent rounded-2xl"></div>
+              <!-- Overlay Badge -->
+              <div class="absolute top-6 left-6 bg-blue-600 text-white px-4 py-2 rounded-xl font-semibold text-sm">
+                ✈️ For Travelers
+              </div>
+              <!-- Earnings Badge -->
+              <div class="absolute bottom-6 right-6 bg-green-500 text-white px-4 py-2 rounded-xl font-semibold text-sm">
+                Earn ₦50-200
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Features Grid -->
+        <!-- Features Section -->
+      </div>
+    </section>
+
+    <!-- Features Grid -->
+        <!-- Features Section -->hidden">
+    <!-- Enhanced Hero Section -->
+    <HeroSection />
+    
+    <!-- Key Stats Section -->
+    <section class="relative py-16 bg-gradient-to-br from-gray-50 to-white scroll-animate-left overflow-hidden">
+      <!-- Subtle background -->
+      <div class="absolute inset-0 bg-gradient-to-b from-gray-50/50 to-white"></div>
+      
+      <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 relative">
+        <!-- Section Header -->
+        <div class="text-center mb-12">
+          <h2 class="text-2xl md:text-3xl font-bold text-black mb-4 font-inter">
+            Trusted by Thousands Nationwide
+          </h2>
+          <p class="text-gray-600 max-w-2xl mx-auto font-opensans">
+            Join our growing community of satisfied customers and reliable travelers
+          </p>
+        </div>
+
+        <!-- Stats Cards -->
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+          <!-- Deliveries Card -->
+          <div class="group relative bg-white rounded-xl border-2 border-gray-100 p-8 text-center hover:border-red-200 transition-all duration-300 hover:shadow-lg">
+            <div class="absolute top-4 right-4 w-3 h-3 bg-red-600 rounded-full opacity-0 group-hover:opacity-100 transition-opacity"></div>
+            <div class="mb-4">
+              <div class="w-16 h-16 bg-red-50 rounded-xl flex items-center justify-center mx-auto mb-4 group-hover:bg-red-100 transition-colors">
+                <i class="pi pi-box text-2xl text-red-600"></i>
+              </div>
+              <div class="text-4xl font-bold text-black mb-2 font-inter">100,000+</div>
+              <div class="text-gray-600 font-medium font-opensans">Deliveries Completed</div>
+            </div>
+            <div class="text-sm text-gray-500 font-opensans">Packages delivered safely across Nigeria</div>
+          </div>
+
+          <!-- Users Card -->
+          <div class="group relative bg-white rounded-xl border-2 border-gray-100 p-8 text-center hover:border-yellow-300 transition-all duration-300 hover:shadow-lg">
+            <div class="absolute top-4 right-4 w-3 h-3 bg-yellow-500 rounded-full opacity-0 group-hover:opacity-100 transition-opacity"></div>
+            <div class="mb-4">
+              <div class="w-16 h-16 bg-yellow-50 rounded-xl flex items-center justify-center mx-auto mb-4 group-hover:bg-yellow-100 transition-colors">
+                <i class="pi pi-users text-2xl text-yellow-600"></i>
+              </div>
+              <div class="text-4xl font-bold text-black mb-2 font-inter">50,000+</div>
+              <div class="text-gray-600 font-medium font-opensans">Active Users</div>
+            </div>
+            <div class="text-sm text-gray-500 font-opensans">Senders and travelers using our platform</div>
+          </div>
+
+          <!-- Satisfaction Card -->
+          <div class="group relative bg-white rounded-xl border-2 border-gray-100 p-8 text-center hover:border-gray-300 transition-all duration-300 hover:shadow-lg">
+            <div class="absolute top-4 right-4 w-3 h-3 bg-black rounded-full opacity-0 group-hover:opacity-100 transition-opacity"></div>
+            <div class="mb-4">
+              <div class="w-16 h-16 bg-gray-50 rounded-xl flex items-center justify-center mx-auto mb-4 group-hover:bg-gray-100 transition-colors">
+                <i class="pi pi-star-fill text-2xl text-black"></i>
+              </div>
+              <div class="text-4xl font-bold text-black mb-2">4.7/5</div>
+              <div class="text-gray-600 font-medium">Customer Satisfaction</div>
+            </div>
+            <div class="text-sm text-gray-500">Based on verified customer reviews</div>
+          </div>
+        </div>
+
+        <!-- Trust Indicators -->
+        <div class="mt-12 text-center">
+          <div class="inline-flex items-center space-x-6 text-sm text-gray-500">
+            <div class="flex items-center space-x-2">
+              <i class="pi pi-shield text-green-600"></i>
+              <span>Secure Payments</span>
+            </div>
+            <div class="flex items-center space-x-2">
+              <i class="pi pi-verified text-blue-600"></i>
+              <span>Verified Travelers</span>
+            </div>
+            <div class="flex items-center space-x-2">
+              <i class="pi pi-clock text-purple-600"></i>
+              <span>24/7 Support</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- How it works -->
+    <HowItWorksSections />
+
+    <!-- Features Grid -->
     <!-- Features Section -->
     <section class="py-20 bg-gradient-to-r from-red-50 via-white to-yellow-50 relative overflow-hidden scroll-animate-right">
       <!-- Background decorations -->
@@ -306,168 +563,6 @@
             </div>
             <h3 class="text-2xl font-bold text-black mb-4 group-hover:text-red-600 transition-colors">24/7 Support</h3>
             <p class="text-gray-700 leading-relaxed group-hover:text-black transition-colors">Round-the-clock customer support to assist you with any questions or concerns.</p>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- How It Works Section -->
-    <section class="relative z-10 py-20 bg-white">
-      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <!-- Section Header -->
-        <div class="text-center mb-16">
-          <h2 class="text-4xl md:text-5xl font-bold text-black mb-6 font-inter">
-            How It <span class="text-blue-600">Works</span>
-          </h2>
-          <p class="text-xl text-gray-600 max-w-3xl mx-auto leading-relaxed font-opensans">
-            Simple, secure, and fast delivery in just a few easy steps
-          </p>
-        </div>
-        
-        <!-- Package Sending Process - Image Left, Content Right -->
-        <div class="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center mb-20">
-          <!-- Image -->
-          <div class="scroll-animate-left">
-            <div class="relative group">
-              <img 
-                src="/images/mock1.png" 
-                alt="Package sending process" 
-                class="w-full h-auto rounded-2xl shadow-xl transform group-hover:scale-105 transition-transform duration-300"
-              />
-              <div class="absolute inset-0 bg-gradient-to-t from-blue-600/20 to-transparent rounded-2xl"></div>
-              <!-- Overlay Badge -->
-              <div class="absolute top-6 left-6 bg-blue-600 text-white px-4 py-2 rounded-xl font-semibold text-sm">
-                📦 For Senders
-              </div>
-            </div>
-          </div>
-          
-          <!-- Content -->
-          <div class="scroll-animate-right">
-            <div class="space-y-6">
-              <div class="inline-block">
-                <span class="text-blue-600 text-sm font-semibold uppercase tracking-wider border border-blue-200 px-3 py-1 rounded-full font-inter">
-                  Step by Step
-                </span>
-              </div>
-              
-              <h3 class="text-4xl font-bold text-black font-inter">
-                Send Your <span class="text-blue-600">Package</span>
-              </h3>
-              
-              <p class="text-xl text-gray-600 leading-relaxed font-opensans">
-                Connect with trusted travelers and send your packages anywhere across Nigeria. 
-                Fast, secure, and affordable delivery made simple.
-              </p>
-              
-              <!-- Steps List -->
-              <div class="space-y-4">
-                <div class="flex items-start space-x-4 p-4 bg-blue-50 rounded-xl">
-                  <div class="w-8 h-8 bg-blue-600 rounded-lg flex items-center justify-center flex-shrink-0 mt-1">
-                    <span class="text-white text-sm font-bold">1</span>
-                  </div>
-                  <div>
-                    <h4 class="font-semibold text-gray-800 font-inter">Post Your Request</h4>
-                    <p class="text-gray-600 font-opensans">Describe your package and destination details</p>
-                  </div>
-                </div>
-                
-                <div class="flex items-start space-x-4 p-4 bg-blue-50 rounded-xl">
-                  <div class="w-8 h-8 bg-blue-600 rounded-lg flex items-center justify-center flex-shrink-0 mt-1">
-                    <span class="text-white text-sm font-bold">2</span>
-                  </div>
-                  <div>
-                    <h4 class="font-semibold text-gray-800 font-inter">Choose a Traveler</h4>
-                    <p class="text-gray-600 font-opensans">Select from verified travelers going your route</p>
-                  </div>
-                </div>
-                
-                <div class="flex items-start space-x-4 p-4 bg-blue-50 rounded-xl">
-                  <div class="w-8 h-8 bg-blue-600 rounded-lg flex items-center justify-center flex-shrink-0 mt-1">
-                    <span class="text-white text-sm font-bold">3</span>
-                  </div>
-                  <div>
-                    <h4 class="font-semibold text-gray-800 font-inter">Track & Receive</h4>
-                    <p class="text-gray-600 font-opensans">Monitor delivery progress and receive your package</p>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        
-        <!-- Divider -->
-        <div class="w-full h-px bg-gradient-to-r from-transparent via-gray-300 to-transparent mb-20"></div>
-        
-        <!-- Traveler Process - Content Left, Image Right -->
-        <div class="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
-          <!-- Content -->
-          <div class="order-2 lg:order-1 scroll-animate-left">
-            <div class="space-y-6">
-              <div class="inline-block">
-                <span class="text-green-600 text-sm font-semibold uppercase tracking-wider border border-green-200 px-3 py-1 rounded-full font-inter">
-                  Earn Money
-                </span>
-              </div>
-              
-              <h3 class="text-4xl font-bold text-black font-inter">
-                Become a <span class="text-green-600">Traveler</span>
-              </h3>
-              
-              <p class="text-xl text-gray-600 leading-relaxed font-opensans">
-                Turn your travels into income! Join our network of trusted travelers and earn 
-                money while helping deliver packages along your route.
-              </p>
-              
-              <!-- Steps List -->
-              <div class="space-y-4">
-                <div class="flex items-start space-x-4 p-4 bg-green-50 rounded-xl">
-                  <div class="w-8 h-8 bg-green-600 rounded-lg flex items-center justify-center flex-shrink-0 mt-1">
-                    <span class="text-white text-sm font-bold">1</span>
-                  </div>
-                  <div>
-                    <h4 class="font-semibold text-gray-800 font-inter">Share Your Trip</h4>
-                    <p class="text-gray-600 font-opensans">Post your travel route and available space</p>
-                  </div>
-                </div>
-                
-                <div class="flex items-start space-x-4 p-4 bg-green-50 rounded-xl">
-                  <div class="w-8 h-8 bg-green-600 rounded-lg flex items-center justify-center flex-shrink-0 mt-1">
-                    <span class="text-white text-sm font-bold">2</span>
-                  </div>
-                  <div>
-                    <h4 class="font-semibold text-gray-800 font-inter">Accept Requests</h4>
-                    <p class="text-gray-600 font-opensans">Choose packages that fit your schedule</p>
-                  </div>
-                </div>
-                
-                <div class="flex items-start space-x-4 p-4 bg-green-50 rounded-xl">
-                  <div class="w-8 h-8 bg-green-600 rounded-lg flex items-center justify-center flex-shrink-0 mt-1">
-                    <span class="text-white text-sm font-bold">3</span>
-                  </div>
-                  <div>
-                    <h4 class="font-semibold text-gray-800 font-inter">Deliver & Earn</h4>
-                    <p class="text-gray-600 font-opensans">Complete delivery and get paid instantly</p>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          
-          <!-- Image -->
-          <div class="order-1 lg:order-2 scroll-animate-right">
-            <div class="relative group">
-              <img 
-                src="/images/mock2.png" 
-                alt="Become a traveler process" 
-                class="w-full h-auto rounded-2xl shadow-xl transform group-hover:scale-105 transition-transform duration-300"
-              />
-              <div class="absolute inset-0 bg-gradient-to-t from-green-600/20 to-transparent rounded-2xl"></div>
-              <!-- Overlay Badge -->
-              <div class="absolute top-6 right-6 bg-green-600 text-white px-4 py-2 rounded-xl font-semibold text-sm">
-                💰 For Travelers
-              </div>
-            </div>
           </div>
         </div>
       </div>
