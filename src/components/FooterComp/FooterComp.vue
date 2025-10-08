@@ -66,14 +66,14 @@
             <h4 class="text-white font-bold font-space-grotesk text-sm uppercase tracking-wider">CONTACT SUPPORT</h4>
             <div class="space-y-3 font-sans text-sm">
               <div>
-                <a href="tel:+2347067837269" class="text-gray-400 hover:text-white transition-colors">+2347067837269</a>
+                <a href="tel:0700767837269" class="text-gray-400 hover:text-white transition-colors">0700POSTERBOX</a>
               </div>
               <div>
-                <a href="tel:+2347060755327" class="text-gray-400 hover:text-white transition-colors">+2347060755327</a>
+                <a href="tel:0700767837269" class="text-gray-400 hover:text-white transition-colors">0700767837269</a>
               </div>
               <div>
-                <a href="mailto:hello@posterbox.ng"
-                  class="text-gray-400 hover:text-white transition-colors">hello@posterbox.ng</a>
+                <a href="mailto:admin@posterbox.com.ng"
+                  class="text-gray-400 hover:text-white transition-colors">admin@posterbox.com.ng</a>
               </div>
             </div>
 

@@ -40,7 +40,7 @@
                 class="w-16 h-16 bg-red-50 rounded-xl flex items-center justify-center mx-auto mb-4 group-hover:bg-red-100 transition-colors">
                 <i class="pi pi-box text-2xl text-red-600"></i>
               </div>
-              <div class="text-4xl font-bold text-black mb-2 font-space-grotesk">100,000+</div>
+              <div class="text-4xl font-bold text-black mb-2 font-space-grotesk">5,000+</div>
               <div class="text-gray-600 font-medium font-sans">Deliveries Completed</div>
             </div>
             <div class="text-sm text-gray-500 font-sans">Packages delivered safely across Nigeria</div>
@@ -57,7 +57,7 @@
                 class="w-16 h-16 bg-yellow-50 rounded-xl flex items-center justify-center mx-auto mb-4 group-hover:bg-yellow-100 transition-colors">
                 <i class="pi pi-users text-2xl text-yellow-600"></i>
               </div>
-              <div class="text-4xl font-bold text-black mb-2 font-space-grotesk">50,000+</div>
+              <div class="text-4xl font-bold text-black mb-2 font-space-grotesk">2,500+</div>
               <div class="text-gray-600 font-medium font-sans">Active Users</div>
             </div>
             <div class="text-sm text-gray-500 font-sans">Senders and travelers using our platform</div>
@@ -169,7 +169,7 @@
                 </div>
                 <div>
                   <h4 class="text-lg font-semibold text-white">Competitive Earnings</h4>
-                  <p class="text-gray-400">Earn $50-200 per delivery based on distance</p>
+                  <p class="text-gray-400">Earn ₦5,000-20,000 per delivery based on distance</p>
                 </div>
               </div>
 
@@ -225,7 +225,7 @@
                 <div class="absolute bottom-6 right-6 z-20">
                   <div class="bg-yellow-500 text-black rounded-xl p-3 shadow-lg">
                     <div class="text-center">
-                      <div class="text-2xl font-bold">$150</div>
+                      <div class="text-2xl font-bold">₦15,000</div>
                       <div class="text-xs font-medium">Earned Today</div>
                     </div>
                   </div>
@@ -333,14 +333,14 @@
             <div class="relative">
               <div
                 class="w-16 h-16 bg-yellow-500 rounded-2xl flex items-center justify-center mb-6 group-hover:scale-110 transition-transform duration-300 shadow-lg">
-                <i class="pi pi-dollar text-2xl text-black"></i>
+                <i class="pi pi-money-bill text-2xl text-black"></i>
               </div>
               <div
                 class="absolute -top-2 -right-2 w-8 h-8 bg-red-600 rounded-full opacity-0 group-hover:opacity-100 transition-opacity duration-300 animate-pulse">
               </div>
             </div>
             <h3 class="text-2xl font-bold text-black mb-4 group-hover:text-red-600 transition-colors">Best Prices</h3>
-            <p class="text-gray-700 leading-relaxed group-hover:text-black transition-colors">Save up to 70% compared to
+            <p class="text-gray-700 leading-relaxed group-hover:text-black transition-colors">Save up to 40% compared to
               traditional shipping methods while maintaining quality service.</p>
           </div>
 
