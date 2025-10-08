@@ -53,22 +53,9 @@
 
       <!-- Bottom section -->
       <div class="px-6 pb-6 border-t border-gray-100">
-        <!-- Contact button -->
-        <div class="pt-6 transform transition-all duration-300"
-          :style="{ transitionDelay: `${isVisible ? '400ms' : '0ms'}` }"
-          :class="isVisible ? 'translate-y-0 opacity-100' : 'translate-y-4 opacity-0'">
-          <button @click="handleContactClick"
-            class="w-full bg-red-600 text-white py-4 px-6 rounded-xl font-semibold text-lg hover:bg-red-700 transition-all duration-200 shadow-lg hover:shadow-xl transform hover:scale-[1.02] active:scale-[0.98]">
-            <span class="flex items-center justify-center space-x-2">
-              <i class="pi pi-phone"></i>
-              <span>Contact Us</span>
-            </span>
-          </button>
-        </div>
-
         <!-- Info text -->
-        <div class="mt-4 text-center transform transition-all duration-300"
-          :style="{ transitionDelay: `${isVisible ? '500ms' : '0ms'}` }"
+        <div class="pt-6 text-center transform transition-all duration-300"
+          :style="{ transitionDelay: `${isVisible ? '400ms' : '0ms'}` }"
           :class="isVisible ? 'translate-y-0 opacity-100' : 'translate-y-4 opacity-0'">
           <p class="text-sm text-gray-500">
             Fast, secure package delivery
@@ -128,14 +115,6 @@ const handleNavClick = (routePath: string) => {
   // Wait for animation to complete before navigating
   setTimeout(() => {
     router.push(routePath);
-    emit("changeVisibilty");
-  }, 300);
-};
-
-const handleContactClick = () => {
-  isVisible.value = false;
-  setTimeout(() => {
-    router.push('/contact');
     emit("changeVisibilty");
   }, 300);
 };

@@ -43,10 +43,13 @@
         <!-- Mobile menu toggle -->
         <div class="md:hidden">
           <button @click="showMobileNav = !showMobileNav"
-            class="p-2 rounded-lg hover:bg-gray-100 transition-colors duration-300"
-            :class="showMobileNav ? 'bg-gray-100' : ''">
-            <i v-if="!showMobileNav" class="pi pi-bars text-xl text-gray-700"></i>
-            <i v-else class="pi pi-times text-xl text-gray-700"></i>
+            class="relative p-3 rounded-xl bg-red-600 hover:bg-red-700 transition-all duration-300 shadow-lg hover:shadow-xl transform hover:scale-105"
+            :class="showMobileNav ? 'bg-red-700 scale-105' : ''">
+            <i v-if="!showMobileNav" class="pi pi-bars text-xl text-white"></i>
+            <i v-else class="pi pi-times text-xl text-white"></i>
+
+            <!-- Visual indicator dot -->
+            <div class="absolute -top-1 -right-1 w-3 h-3 bg-yellow-400 rounded-full animate-pulse"></div>
           </button>
         </div>
       </div>

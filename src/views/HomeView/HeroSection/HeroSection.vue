@@ -53,21 +53,21 @@
           <!-- Download Buttons -->
           <div class="pt-6 sm:pt-8">
             <p class="text-red-100 mb-3 sm:mb-4 text-sm sm:text-base">Download the app:</p>
-            <div class="flex flex-col sm:flex-row gap-3 sm:gap-4 max-w-xs sm:max-w-none mx-auto sm:mx-0">
+            <div class="flex flex-col sm:flex-row gap-3 sm:gap-4">
               <button
-                class="flex items-center justify-center gap-2 sm:gap-3 bg-black bg-opacity-20 backdrop-blur-sm border border-white border-opacity-30 rounded-lg px-3 sm:px-4 py-2.5 sm:py-3 hover:bg-opacity-30 transition-all duration-300 min-w-0 sm:w-auto">
-                <img alt="Google Play" src="./playStore.svg" class="w-5 h-5 sm:w-8 sm:h-8 flex-shrink-0" />
-                <div class="text-left min-w-0">
+                class="flex items-center justify-center gap-2 sm:gap-3 bg-black bg-opacity-20 backdrop-blur-sm border border-white border-opacity-30 rounded-xl px-6 sm:px-8 py-3 sm:py-4 hover:bg-opacity-30 transition-all duration-300 font-semibold text-base sm:text-lg">
+                <img alt="Google Play" src="./playStore.svg" class="w-5 h-5 sm:w-6 sm:h-6 flex-shrink-0" />
+                <div class="text-left">
                   <div class="text-xs text-red-100 leading-tight">GET IT ON</div>
-                  <div class="text-xs sm:text-sm font-semibold truncate leading-tight">Google Play</div>
+                  <div class="text-sm sm:text-base font-semibold leading-tight">Google Play</div>
                 </div>
               </button>
               <button
-                class="flex items-center justify-center gap-2 sm:gap-3 bg-black bg-opacity-20 backdrop-blur-sm border border-white border-opacity-30 rounded-lg px-3 sm:px-4 py-2.5 sm:py-3 hover:bg-opacity-30 transition-all duration-300 min-w-0 sm:w-auto">
-                <img alt="App Store" src="./appStore.svg" class="w-5 h-5 sm:w-8 sm:h-8 flex-shrink-0" />
-                <div class="text-left min-w-0">
+                class="flex items-center justify-center gap-2 sm:gap-3 bg-black bg-opacity-20 backdrop-blur-sm border border-white border-opacity-30 rounded-xl px-6 sm:px-8 py-3 sm:py-4 hover:bg-opacity-30 transition-all duration-300 font-semibold text-base sm:text-lg">
+                <img alt="App Store" src="./appStore.svg" class="w-5 h-5 sm:w-6 sm:h-6 flex-shrink-0" />
+                <div class="text-left">
                   <div class="text-xs text-red-100 leading-tight">Download on the</div>
-                  <div class="text-xs sm:text-sm font-semibold truncate leading-tight">App Store</div>
+                  <div class="text-sm sm:text-base font-semibold leading-tight">App Store</div>
                 </div>
               </button>
             </div>
