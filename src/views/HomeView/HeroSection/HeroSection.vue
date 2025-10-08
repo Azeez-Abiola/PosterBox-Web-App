@@ -4,30 +4,32 @@
     <img alt="circle-1" src="./circle.svg" class="absolute top-16 left-0 opacity-20" />
     <img alt="circle-2" src="./circle-2.svg" class="absolute bottom-5 right-0 opacity-20" />
     <img src="./dot.svg" class="absolute top-32 left-16 hidden md:block opacity-30" />
-    
+
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20">
       <div class="flex flex-col lg:flex-row items-center gap-12 min-h-[80vh] scroll-animate">
-        
+
         <!-- Content Section -->
         <div class="lg:w-1/2 text-white space-y-8">
           <div class="space-y-6">
-            <h1 class="text-4xl sm:text-5xl lg:text-6xl font-bold leading-tight font-inter">
-              Send packages anywhere in the country — 
+            <h1 class="text-4xl sm:text-5xl lg:text-6xl font-bold leading-tight font-space-grotesk">
+              Send packages anywhere in the country —
               <span class="text-yellow-300">
                 <span class="switching-text" ref="switchingText">fast</span>
               </span>
             </h1>
-            <p class="text-xl sm:text-2xl text-red-100 leading-relaxed font-opensans">
+            <p class="text-xl sm:text-2xl text-red-100 leading-relaxed font-sans">
               A community-powered delivery app where senders save and travelers earn.
             </p>
           </div>
 
           <!-- CTA Buttons -->
-          <div class="flex flex-col sm:flex-row gap-4">
-            <button class="bg-white text-[var(--primary-red)] px-8 py-4 rounded-xl font-bold text-lg hover:bg-gray-100 transition-all duration-300 transform hover:scale-105 shadow-lg font-inter">
+          <div class="flex flex-col sm:flex-row gap-3 sm:gap-4">
+            <button
+              class="bg-white text-[var(--primary-red)] px-6 sm:px-8 py-3 sm:py-4 rounded-xl font-bold text-base sm:text-lg hover:bg-gray-100 transition-all duration-300 transform hover:scale-105 shadow-lg font-space-grotesk">
               Get the App
             </button>
-            <button class="border-2 border-white text-white px-8 py-4 rounded-xl font-semibold text-lg hover:bg-white hover:text-[var(--primary-red)] transition-all duration-300 font-opensans">
+            <button
+              class="border-2 border-white text-white px-6 sm:px-8 py-3 sm:py-4 rounded-xl font-semibold text-base sm:text-lg hover:bg-white hover:text-[var(--primary-red)] transition-all duration-300 font-sans">
               Make a Request
             </button>
           </div>
@@ -49,21 +51,23 @@
           </div>
 
           <!-- Download Buttons -->
-          <div class="pt-8">
-            <p class="text-red-100 mb-4">Download the app:</p>
-            <div class="flex flex-col sm:flex-row gap-4">
-              <button class="flex items-center gap-3 bg-black bg-opacity-20 backdrop-blur-sm border border-white border-opacity-30 rounded-lg px-4 py-3 hover:bg-opacity-30 transition-all duration-300">
-                <img alt="Google Play" src="./playStore.svg" class="w-8 h-8" />
-                <div class="text-left">
-                  <div class="text-xs text-red-100">GET IT ON</div>
-                  <div class="text-sm font-semibold">Google Play</div>
+          <div class="pt-6 sm:pt-8">
+            <p class="text-red-100 mb-3 sm:mb-4 text-sm sm:text-base">Download the app:</p>
+            <div class="flex flex-col sm:flex-row gap-3 sm:gap-4 max-w-xs sm:max-w-none mx-auto sm:mx-0">
+              <button
+                class="flex items-center justify-center gap-2 sm:gap-3 bg-black bg-opacity-20 backdrop-blur-sm border border-white border-opacity-30 rounded-lg px-3 sm:px-4 py-2.5 sm:py-3 hover:bg-opacity-30 transition-all duration-300 min-w-0 sm:w-auto">
+                <img alt="Google Play" src="./playStore.svg" class="w-5 h-5 sm:w-8 sm:h-8 flex-shrink-0" />
+                <div class="text-left min-w-0">
+                  <div class="text-xs text-red-100 leading-tight">GET IT ON</div>
+                  <div class="text-xs sm:text-sm font-semibold truncate leading-tight">Google Play</div>
                 </div>
               </button>
-              <button class="flex items-center gap-3 bg-black bg-opacity-20 backdrop-blur-sm border border-white border-opacity-30 rounded-lg px-4 py-3 hover:bg-opacity-30 transition-all duration-300">
-                <img alt="App Store" src="./appStore.svg" class="w-8 h-8" />
-                <div class="text-left">
-                  <div class="text-xs text-red-100">Download on the</div>
-                  <div class="text-sm font-semibold">App Store</div>
+              <button
+                class="flex items-center justify-center gap-2 sm:gap-3 bg-black bg-opacity-20 backdrop-blur-sm border border-white border-opacity-30 rounded-lg px-3 sm:px-4 py-2.5 sm:py-3 hover:bg-opacity-30 transition-all duration-300 min-w-0 sm:w-auto">
+                <img alt="App Store" src="./appStore.svg" class="w-5 h-5 sm:w-8 sm:h-8 flex-shrink-0" />
+                <div class="text-left min-w-0">
+                  <div class="text-xs text-red-100 leading-tight">Download on the</div>
+                  <div class="text-xs sm:text-sm font-semibold truncate leading-tight">App Store</div>
                 </div>
               </button>
             </div>
@@ -73,16 +77,14 @@
         <!-- Phone Mockup Section -->
         <div class="lg:w-1/2 flex justify-center">
           <div class="relative hero-image-container">
-            <img 
-              src="./iPhone-13.png" 
-              alt="PosterBox App Screenshot" 
-              class="w-80 lg:w-96 h-auto drop-shadow-2xl hero-image" 
-              @mouseenter="startImageAnimation"
-              @mouseleave="stopImageAnimation"
-            />
+            <img src="./iPhone-13.png" alt="PosterBox App Screenshot"
+              class="w-80 lg:w-96 h-auto drop-shadow-2xl hero-image bouncy-float" @mouseenter="startImageAnimation"
+              @mouseleave="stopImageAnimation" />
             <!-- Floating elements for visual appeal -->
             <div class="absolute -top-4 -left-4 w-8 h-8 bg-yellow-300 rounded-full opacity-80 animate-pulse"></div>
-            <div class="absolute -bottom-4 -right-4 w-12 h-12 bg-white bg-opacity-20 rounded-full opacity-60 animate-bounce"></div>
+            <div
+              class="absolute -bottom-4 -right-4 w-12 h-12 bg-white bg-opacity-20 rounded-full opacity-60 animate-bounce">
+            </div>
           </div>
         </div>
       </div>
@@ -91,17 +93,15 @@
     <!-- Social Links -->
     <div class="absolute bottom-8 left-1/2 transform -translate-x-1/2">
       <div class="flex gap-6 items-center">
-        <a
-          target="_blank"
-          rel="noopener noreferrer"
-          href="https://www.linkedin.com/company/myposterbox/"
-          class="text-white hover:text-yellow-300 transition-colors duration-300"
-        >
+        <a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/company/myposterbox/"
+          class="text-white hover:text-yellow-300 transition-colors duration-300">
           <svg width="25" height="24" viewBox="0 0 25 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <path d="M21.5 0H3.5C2.4 0 1.5 0.9 1.5 2V22C1.5 23.1 2.4 24 3.5 24H21.5C22.6 24 23.5 23.1 23.5 22V2C23.5 0.9 22.6 0 21.5 0ZM8.5 20H5.5V9H8.5V20ZM7 7.5C6.2 7.5 5.5 6.8 5.5 6S6.2 4.5 7 4.5S8.5 5.2 8.5 6S7.8 7.5 7 7.5ZM20.5 20H17.5V14.5C17.5 13.4 16.6 12.5 15.5 12.5S13.5 13.4 13.5 14.5V20H10.5V9H13.5V10.5C14.1 9.6 15.2 9 16.5 9C18.4 9 20.5 10.6 20.5 13V20Z" fill="currentColor"/>
+            <path
+              d="M21.5 0H3.5C2.4 0 1.5 0.9 1.5 2V22C1.5 23.1 2.4 24 3.5 24H21.5C22.6 24 23.5 23.1 23.5 22V2C23.5 0.9 22.6 0 21.5 0ZM8.5 20H5.5V9H8.5V20ZM7 7.5C6.2 7.5 5.5 6.8 5.5 6S6.2 4.5 7 4.5S8.5 5.2 8.5 6S7.8 7.5 7 7.5ZM20.5 20H17.5V14.5C17.5 13.4 16.6 12.5 15.5 12.5S13.5 13.4 13.5 14.5V20H10.5V9H13.5V10.5C14.1 9.6 15.2 9 16.5 9C18.4 9 20.5 10.6 20.5 13V20Z"
+              fill="currentColor" />
           </svg>
         </a>
-        <span class="text-white text-sm font-opensans">Follow us for updates</span>
+        <span class="text-white text-sm font-sans">Follow us for updates</span>
       </div>
     </div>
   </section>
@@ -148,15 +148,15 @@ const stopImageAnimation = () => {
 onMounted(() => {
   // Start text switching
   textInterval = setInterval(switchText, 2000)
-  
+
   // Setup repetitive scroll animations
   const observer = new IntersectionObserver((entries) => {
     entries.forEach((entry) => {
       if (entry.isIntersecting) {
         // Remove existing animation classes first
         entry.target.classList.remove('animate-slide-in', 'animate-rise')
-        // Trigger reflow
-        ;(entry.target as HTMLElement).offsetHeight
+          // Trigger reflow
+          ; (entry.target as HTMLElement).offsetHeight
         // Add animation class again
         if (entry.target.classList.contains('scroll-animate-left') || entry.target.classList.contains('scroll-animate-right')) {
           entry.target.classList.add('animate-slide-in')
@@ -169,7 +169,7 @@ onMounted(() => {
       }
     })
   }, { threshold: 0.1 })
-  
+
   // Observe all scroll animation elements
   document.querySelectorAll('.scroll-animate, .scroll-animate-left, .scroll-animate-right, .scroll-animate-up').forEach((el) => {
     observer.observe(el)
@@ -185,11 +185,11 @@ onUnmounted(() => {
 
 <style scoped>
 /* Font families */
-.font-inter {
+.font-space-grotesk {
   font-family: 'Inter', sans-serif;
 }
 
-.font-opensans {
+.font-sans {
   font-family: 'Open Sans', sans-serif;
 }
 
@@ -206,22 +206,53 @@ onUnmounted(() => {
   cursor: pointer;
 }
 
+/* Bouncy float animation for hero image */
+.bouncy-float {
+  animation: bouncyFloat 3s ease-in-out infinite;
+}
+
+@keyframes bouncyFloat {
+
+  0%,
+  100% {
+    transform: translateY(0px) rotate(0deg);
+  }
+
+  25% {
+    transform: translateY(-10px) rotate(1deg);
+  }
+
+  50% {
+    transform: translateY(-5px) rotate(-1deg);
+  }
+
+  75% {
+    transform: translateY(-15px) rotate(0.5deg);
+  }
+}
+
 .hero-image-container:hover .hero-image {
   transform: scale(1.05) rotate(2deg);
+  animation-play-state: paused;
 }
 
 @keyframes heroHover {
-  0%, 100% { 
-    transform: scale(1.05) rotate(2deg) translateY(0px); 
+
+  0%,
+  100% {
+    transform: scale(1.05) rotate(2deg) translateY(0px);
   }
-  25% { 
-    transform: scale(1.05) rotate(2deg) translateY(-10px) translateX(5px); 
+
+  25% {
+    transform: scale(1.05) rotate(2deg) translateY(-10px) translateX(5px);
   }
-  50% { 
-    transform: scale(1.05) rotate(2deg) translateY(-5px) translateX(-5px); 
+
+  50% {
+    transform: scale(1.05) rotate(2deg) translateY(-5px) translateX(-5px);
   }
-  75% { 
-    transform: scale(1.05) rotate(2deg) translateY(-15px) translateX(3px); 
+
+  75% {
+    transform: scale(1.05) rotate(2deg) translateY(-15px) translateX(3px);
   }
 }
 

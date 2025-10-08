@@ -16,10 +16,10 @@
     <section class="relative z-10 py-20 scroll-animate-left">
       <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div class="text-center mb-8">
-          <h1 class="text-4xl md:text-5xl font-bold text-black mb-6 font-inter">
+          <h1 class="text-4xl md:text-5xl font-bold text-black mb-6 font-space-grotesk">
             About <span class="text-red-600">PosterBox</span>
           </h1>
-          <p class="text-xl text-gray-600 max-w-3xl mx-auto leading-relaxed font-opensans">
+          <p class="text-xl text-gray-600 max-w-3xl mx-auto leading-relaxed font-sans">
             Revolutionizing package delivery through community-powered logistics
           </p>
         </div>
@@ -45,16 +45,16 @@
           <!-- Content -->
           <div class="order-1 xl:order-2 scroll-animate-right">
             <div class="inline-block mb-6">
-              <span class="text-red-600 text-sm font-semibold uppercase tracking-wider border border-red-200 px-3 py-1 rounded-full font-inter">
+              <span class="text-red-600 text-sm font-semibold uppercase tracking-wider border border-red-200 px-3 py-1 rounded-full font-space-grotesk">
                 Our Mission
               </span>
             </div>
             
-            <h2 class="text-3xl md:text-4xl font-bold text-black mb-6 leading-tight font-inter">
+            <h2 class="text-3xl md:text-4xl font-bold text-black mb-6 leading-tight font-space-grotesk">
               Transforming Package Delivery
             </h2>
             
-            <p class="text-lg text-gray-600 mb-8 leading-relaxed font-opensans">
+            <p class="text-lg text-gray-600 mb-8 leading-relaxed font-sans">
               To transform the way people send and receive their packages by providing 
               customer-driven service that connects travelers with people who need reliable, 
               affordable delivery solutions.
@@ -62,12 +62,12 @@
             
             <div class="grid grid-cols-2 gap-6">
               <div class="text-center p-4 bg-red-50 rounded-xl">
-                <div class="text-2xl font-bold text-red-600 mb-2 font-inter">100K+</div>
-                <div class="text-sm text-gray-600 font-opensans">Packages Delivered</div>
+                <div class="text-2xl font-bold text-red-600 mb-2 font-space-grotesk">100K+</div>
+                <div class="text-sm text-gray-600 font-sans">Packages Delivered</div>
               </div>
               <div class="text-center p-4 bg-gray-50 rounded-xl">
-                <div class="text-2xl font-bold text-black mb-2 font-inter">50K+</div>
-                <div class="text-sm text-gray-600 font-opensans">Happy Customers</div>
+                <div class="text-2xl font-bold text-black mb-2 font-space-grotesk">50K+</div>
+                <div class="text-sm text-gray-600 font-sans">Happy Customers</div>
               </div>
             </div>
           </div>
@@ -82,12 +82,12 @@
           <!-- Content -->
           <div class="scroll-animate-left">
             <div class="inline-block mb-6">
-              <span class="text-black text-sm font-semibold uppercase tracking-wider border border-gray-300 px-3 py-1 rounded-full font-inter">
+              <span class="text-black text-sm font-semibold uppercase tracking-wider border border-gray-300 px-3 py-1 rounded-full font-space-grotesk">
                 Our Story
               </span>
             </div>
             
-            <h2 class="text-3xl md:text-4xl font-bold text-black mb-8 font-inter">
+            <h2 class="text-3xl md:text-4xl font-bold text-black mb-8 font-space-grotesk">
               Founded on Innovation
             </h2>
             
@@ -143,10 +143,10 @@
     <section class="relative z-10 py-16 scroll-animate-right">
       <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div class="text-center mb-12">
-          <h2 class="text-3xl md:text-4xl font-bold text-black mb-6 font-inter">
+          <h2 class="text-3xl md:text-4xl font-bold text-black mb-6 font-space-grotesk">
             Our Core Values
           </h2>
-          <p class="text-lg text-gray-600 max-w-2xl mx-auto font-opensans">
+          <p class="text-lg text-gray-600 max-w-2xl mx-auto font-sans">
             The principles that guide everything we do
           </p>
         </div>
@@ -189,10 +189,10 @@
     <section class="relative z-10 py-16 bg-gray-50 scroll-animate-left">
       <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div class="text-center mb-12">
-          <h2 class="text-3xl md:text-4xl font-bold text-black mb-6 font-inter">
+          <h2 class="text-3xl md:text-4xl font-bold text-black mb-6 font-space-grotesk">
             Experience PosterBox
           </h2>
-          <p class="text-lg text-gray-600 max-w-2xl mx-auto font-opensans">
+          <p class="text-lg text-gray-600 max-w-2xl mx-auto font-sans">
             See how we're transforming package delivery across Nigeria
           </p>
         </div>

@@ -12,10 +12,10 @@
     <section class="relative z-10 py-20 bg-gradient-to-br from-red-50 to-white scroll-animate-left">
       <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div class="text-center mb-8">
-          <h1 class="text-4xl md:text-5xl font-bold text-black mb-6 font-inter">
+          <h1 class="text-4xl md:text-5xl font-bold text-black mb-6 font-space-grotesk">
             Our <span class="text-red-600">Services</span>
           </h1>
-          <p class="text-xl text-gray-600 max-w-3xl mx-auto leading-relaxed font-opensans">
+          <p class="text-xl text-gray-600 max-w-3xl mx-auto leading-relaxed font-sans">
             Comprehensive delivery solutions designed to meet all your shipping needs
           </p>
         </div>
@@ -48,16 +48,16 @@
           <div class="scroll-animate-right">
             <div class="space-y-6">
               <div class="inline-block">
-                <span class="text-red-600 text-sm font-semibold uppercase tracking-wider border border-red-200 px-3 py-1 rounded-full font-inter">
+                <span class="text-red-600 text-sm font-semibold uppercase tracking-wider border border-red-200 px-3 py-1 rounded-full font-space-grotesk">
                   For Senders
                 </span>
               </div>
               
-              <h2 class="text-4xl font-bold text-black font-inter">
+              <h2 class="text-4xl font-bold text-black font-space-grotesk">
                 Send Packages <span class="text-red-600">Anywhere</span>
               </h2>
               
-              <p class="text-xl text-gray-600 leading-relaxed font-opensans">
+              <p class="text-xl text-gray-600 leading-relaxed font-sans">
                 Send your packages anywhere across Nigeria with our network of verified travelers. 
                 Fast, secure, and affordable delivery for items up to 10kg.
               </p>
@@ -68,34 +68,34 @@
                   <div class="w-8 h-8 bg-red-600 rounded-lg flex items-center justify-center">
                     <i class="pi pi-map-marker text-white text-sm"></i>
                   </div>
-                  <span class="font-medium text-gray-800 font-opensans">Real-time GPS tracking</span>
+                  <span class="font-medium text-gray-800 font-sans">Real-time GPS tracking</span>
                 </div>
                 
                 <div class="flex items-center space-x-3 p-4 bg-red-50 rounded-xl">
                   <div class="w-8 h-8 bg-red-600 rounded-lg flex items-center justify-center">
                     <i class="pi pi-shield text-white text-sm"></i>
                   </div>
-                  <span class="font-medium text-gray-800 font-opensans">Full insurance coverage</span>
+                  <span class="font-medium text-gray-800 font-sans">Full insurance coverage</span>
                 </div>
                 
                 <div class="flex items-center space-x-3 p-4 bg-red-50 rounded-xl">
                   <div class="w-8 h-8 bg-red-600 rounded-lg flex items-center justify-center">
                     <i class="pi pi-clock text-white text-sm"></i>
                   </div>
-                  <span class="font-medium text-gray-800 font-opensans">Same-day delivery</span>
+                  <span class="font-medium text-gray-800 font-sans">Same-day delivery</span>
                 </div>
                 
                 <div class="flex items-center space-x-3 p-4 bg-red-50 rounded-xl">
                   <div class="w-8 h-8 bg-red-600 rounded-lg flex items-center justify-center">
                     <i class="pi pi-dollar text-white text-sm"></i>
                   </div>
-                  <span class="font-medium text-gray-800 font-opensans">Affordable pricing</span>
+                  <span class="font-medium text-gray-800 font-sans">Affordable pricing</span>
                 </div>
               </div>
               
               <!-- CTA Button -->
               <div class="pt-4">
-                <button class="bg-red-600 text-white px-8 py-4 rounded-xl font-semibold text-lg hover:bg-red-700 transition-colors duration-300 shadow-lg hover:shadow-xl transform hover:scale-105 font-inter">
+                <button class="bg-red-600 text-white px-8 py-4 rounded-xl font-semibold text-lg hover:bg-red-700 transition-colors duration-300 shadow-lg hover:shadow-xl transform hover:scale-105 font-space-grotesk">
                   Send a Package Now
                 </button>
               </div>
@@ -112,16 +112,16 @@
           <div class="order-2 lg:order-1 scroll-animate-left">
             <div class="space-y-6">
               <div class="inline-block">
-                <span class="text-yellow-600 text-sm font-semibold uppercase tracking-wider border border-yellow-200 px-3 py-1 rounded-full font-inter">
+                <span class="text-yellow-600 text-sm font-semibold uppercase tracking-wider border border-yellow-200 px-3 py-1 rounded-full font-space-grotesk">
                   For Travelers
                 </span>
               </div>
               
-              <h2 class="text-4xl font-bold text-black font-inter">
+              <h2 class="text-4xl font-bold text-black font-space-grotesk">
                 Become a <span class="text-yellow-600">Traveler</span>
               </h2>
               
-              <p class="text-xl text-gray-600 leading-relaxed font-opensans">
+              <p class="text-xl text-gray-600 leading-relaxed font-sans">
                 Earn money while traveling! Join our network of trusted travelers and help 
                 deliver packages along your route. Flexible schedule, competitive earnings.
               </p>
@@ -132,34 +132,34 @@
                   <div class="w-8 h-8 bg-yellow-500 rounded-lg flex items-center justify-center">
                     <i class="pi pi-calendar text-black text-sm"></i>
                   </div>
-                  <span class="font-medium text-gray-800 font-opensans">Flexible schedule</span>
+                  <span class="font-medium text-gray-800 font-sans">Flexible schedule</span>
                 </div>
                 
                 <div class="flex items-center space-x-3 p-4 bg-yellow-50 rounded-xl">
                   <div class="w-8 h-8 bg-yellow-500 rounded-lg flex items-center justify-center">
                     <i class="pi pi-money-bill text-black text-sm"></i>
                   </div>
-                  <span class="font-medium text-gray-800 font-opensans">Earn ₦50-200 per delivery</span>
+                  <span class="font-medium text-gray-800 font-sans">Earn ₦50-200 per delivery</span>
                 </div>
                 
                 <div class="flex items-center space-x-3 p-4 bg-yellow-50 rounded-xl">
                   <div class="w-8 h-8 bg-yellow-500 rounded-lg flex items-center justify-center">
                     <i class="pi pi-wallet text-black text-sm"></i>
                   </div>
-                  <span class="font-medium text-gray-800 font-opensans">Weekly payments</span>
+                  <span class="font-medium text-gray-800 font-sans">Weekly payments</span>
                 </div>
                 
                 <div class="flex items-center space-x-3 p-4 bg-yellow-50 rounded-xl">
                   <div class="w-8 h-8 bg-yellow-500 rounded-lg flex items-center justify-center">
                     <i class="pi pi-users text-black text-sm"></i>
                   </div>
-                  <span class="font-medium text-gray-800 font-opensans">Trusted community</span>
+                  <span class="font-medium text-gray-800 font-sans">Trusted community</span>
                 </div>
               </div>
               
               <!-- CTA Button -->
               <div class="pt-4">
-                <button class="bg-yellow-500 text-black px-8 py-4 rounded-xl font-semibold text-lg hover:bg-yellow-600 transition-colors duration-300 shadow-lg hover:shadow-xl transform hover:scale-105 font-inter">
+                <button class="bg-yellow-500 text-black px-8 py-4 rounded-xl font-semibold text-lg hover:bg-yellow-600 transition-colors duration-300 shadow-lg hover:shadow-xl transform hover:scale-105 font-space-grotesk">
                   Start Earning Today
                 </button>
               </div>
@@ -189,10 +189,10 @@
     <section class="relative z-10 py-16 bg-gradient-to-r from-blue-50 via-white to-green-50 scroll-animate-left">
       <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div class="text-center mb-12">
-          <h2 class="text-3xl md:text-4xl font-bold text-black mb-6 font-inter">
+          <h2 class="text-3xl md:text-4xl font-bold text-black mb-6 font-space-grotesk">
             What Makes Us Different
           </h2>
-          <p class="text-lg text-gray-600 max-w-2xl mx-auto font-opensans">
+          <p class="text-lg text-gray-600 max-w-2xl mx-auto font-sans">
             Experience the PosterBox advantage with our comprehensive service features
           </p>
         </div>
@@ -245,10 +245,10 @@
     <section class="relative z-10 py-16 bg-gradient-to-br from-gray-50 to-white scroll-animate-right">
       <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div class="text-center mb-12">
-          <h2 class="text-3xl md:text-4xl font-bold text-black mb-6 font-inter">
+          <h2 class="text-3xl md:text-4xl font-bold text-black mb-6 font-space-grotesk">
             Service Coverage
           </h2>
-          <p class="text-lg text-gray-600 max-w-2xl mx-auto font-opensans">
+          <p class="text-lg text-gray-600 max-w-2xl mx-auto font-sans">
             We currently serve major cities across Nigeria with plans to expand nationwide
           </p>
         </div>
@@ -320,18 +320,18 @@
     <!-- CTA Section -->
     <section class="relative z-10 py-16 bg-gradient-to-r from-black via-gray-900 to-black scroll-animate-left">
       <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-        <h2 class="text-3xl md:text-4xl font-bold text-white mb-6 font-inter">
+        <h2 class="text-3xl md:text-4xl font-bold text-white mb-6 font-space-grotesk">
           Ready to Get Started?
         </h2>
-        <p class="text-lg text-gray-300 mb-8 max-w-2xl mx-auto font-opensans">
+        <p class="text-lg text-gray-300 mb-8 max-w-2xl mx-auto font-sans">
           Join thousands of satisfied customers who trust PosterBox for their delivery needs
         </p>
         
         <div class="flex flex-col sm:flex-row gap-4 justify-center">
-          <button class="bg-red-600 text-white px-8 py-4 rounded-xl font-semibold text-lg hover:bg-red-700 transition-colors duration-300 shadow-lg hover:shadow-xl transform hover:scale-105 font-inter">
+          <button class="bg-red-600 text-white px-8 py-4 rounded-xl font-semibold text-lg hover:bg-red-700 transition-colors duration-300 shadow-lg hover:shadow-xl transform hover:scale-105 font-space-grotesk">
             Send a Package
           </button>
-          <button class="border-2 border-white text-white px-8 py-4 rounded-xl font-semibold text-lg hover:bg-white hover:text-black transition-all duration-300 font-opensans">
+          <button class="border-2 border-white text-white px-8 py-4 rounded-xl font-semibold text-lg hover:bg-white hover:text-black transition-all duration-300 font-sans">
             Become a Traveler
           </button>
         </div>

@@ -1,14 +1,8 @@
 <template>
-  <main
-    class="bg-[var(--primary-white)] text-[var(--text-black)] relative pt-10 pb-[88px]"
-  >
+  <main class="bg-[var(--primary-white)] text-[var(--text-black)] relative pt-10 pb-[88px]">
     <img src="./circle-7.svg" alt="circle" class="absolute left-0 top-12 z-0" />
-    <div
-      class="max-w-[1224px] mx-auto w-full px-2.5 sm::px-[70px] relative z-10"
-    >
-      <h1
-        class="text-[30px] sm:text-[40px] font-roboto font-medium xl:text-[50px]"
-      >
+    <div class="max-w-[1224px] mx-auto w-full px-2.5 sm::px-[70px] relative z-10">
+      <h1 class="text-[30px] sm:text-[40px] font-roboto font-medium xl:text-[50px]">
         Terms and Conditions
       </h1>
       <hr class="border-[2px] border-[#8899A6] my-10" />
@@ -238,12 +232,15 @@
 h2 {
   @apply mb-12 lg:mb-6 font-bold text-base sm:text-xl;
 }
+
 p {
   @apply mb-12 lg:mb-6 text-sm sm:text-xl text-justify;
 }
+
 .text-group {
   @apply mb-12 lg:mb-6 text-xs sm:text-base;
 }
+
 .text-group p {
   @apply text-sm sm:text-xl text-justify;
 }

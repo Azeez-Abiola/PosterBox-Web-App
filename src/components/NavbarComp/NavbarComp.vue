@@ -1,79 +1,52 @@
 <template>
-  <MobileNavComp
-    @change-visibilty="() => (showMobileNav = !showMobileNav)"
-    v-if="showMobileNav"
-  />
+  <MobileNavComp @change-visibilty="() => (showMobileNav = !showMobileNav)" v-if="showMobileNav" />
   <header class="sticky z-50 top-0 bg-white/95 backdrop-blur-sm border-b border-gray-100 shadow-sm">
     <nav
-      class="h-[60px] mx-auto max-w-[1440px] pl-[20px] pr-[10px] sm:px-[70px] lg:h-[100px] w-[full] flex justify-between items-center overflow-hidden"
-    >
+      class="h-[60px] mx-auto max-w-[1440px] pl-[20px] pr-[10px] sm:px-[70px] lg:h-[100px] w-[full] flex justify-between items-center overflow-hidden">
       <RouterLink to="/" class="group">
-        <img
-          alt="PosterBox logo"
-          src="@/assets/logo2.svg"
-          class="max-h-[58px] sm:pl-0 h-full items-center block transition-transform duration-300 group-hover:scale-105"
-        />
+        <img alt="PosterBox logo" src="/images/logo-red.png"
+          class="max-h-[70px] sm:pl-0 h-full items-center block transition-transform duration-300 group-hover:scale-105" />
       </RouterLink>
-      
+
       <!-- Desktop Navigation -->
       <ul class="md:flex items-center gap-x-[60px] lg:gap-x-[80px] hidden">
-        <li
-          v-for="link in navlinks"
-          :key="link.title"
-          role="navigation"
-          class="relative group"
-        >
-          <RouterLink 
-            :to="link.route"
-            :class="[
-              'text-base lg:text-[18px] font-semibold cursor-pointer transition-all duration-300 relative py-2 px-4 rounded-lg',
-              isRouteActive(link.route)
-                ? 'text-red-600 bg-red-50'
-                : 'text-gray-700 hover:text-red-600 hover:bg-gray-50'
-            ]"
-          >
+        <li v-for="link in navlinks" :key="link.title" role="navigation" class="relative group">
+          <RouterLink :to="link.route" :class="[
+            'text-base lg:text-[18px] font-semibold cursor-pointer transition-all duration-300 relative py-2 px-4 rounded-lg',
+            isRouteActive(link.route)
+              ? 'text-red-600 bg-red-50'
+              : 'text-gray-700 hover:text-red-600 hover:bg-gray-50'
+          ]">
             {{ link.title }}
-            
+
             <!-- Active indicator -->
-            <div 
-              v-if="isRouteActive(link.route)"
-              class="absolute bottom-0 left-1/2 transform -translate-x-1/2 w-6 h-0.5 bg-red-600 rounded-full"
-            />
-            
+            <div v-if="isRouteActive(link.route)"
+              class="absolute bottom-0 left-1/2 transform -translate-x-1/2 w-6 h-0.5 bg-red-600 rounded-full" />
+
             <!-- Hover indicator -->
-            <div 
-              v-else
-              class="absolute bottom-0 left-1/2 transform -translate-x-1/2 w-0 h-0.5 bg-red-600 rounded-full transition-all duration-300 group-hover:w-6"
-            />
+            <div v-else
+              class="absolute bottom-0 left-1/2 transform -translate-x-1/2 w-0 h-0.5 bg-red-600 rounded-full transition-all duration-300 group-hover:w-6" />
           </RouterLink>
         </li>
       </ul>
-      
+
       <!-- Right side actions -->
       <div class="flex gap-x-4 items-center text-base lg:text-lg">
-        <button
-          @click="$router.push('/contact')"
-          class="group relative overflow-hidden w-[100px] h-[36px] lg:w-[140px] rounded-lg lg:h-[48px] bg-red-600 text-white font-semibold transition-all duration-300 hover:bg-red-700 hover:shadow-lg hover:scale-105"
-        >
+        <button @click="$router.push('/contact')"
+          class="group relative overflow-hidden w-[100px] h-[36px] lg:w-[140px] rounded-lg lg:h-[48px] bg-red-600 text-white font-semibold transition-all duration-300 hover:bg-red-700 hover:shadow-lg hover:scale-105">
           <span class="relative z-10">Contact Us</span>
-          <div class="absolute inset-0 bg-white/20 transform scale-x-0 group-hover:scale-x-100 transition-transform duration-300 origin-left"></div>
+          <div
+            class="absolute inset-0 bg-white/20 transform scale-x-0 group-hover:scale-x-100 transition-transform duration-300 origin-left">
+          </div>
         </button>
-        
+
         <!-- Mobile menu toggle -->
         <div class="md:hidden">
-          <button
-            @click="showMobileNav = !showMobileNav"
+          <button @click="showMobileNav = !showMobileNav"
             class="p-2 rounded-lg hover:bg-gray-100 transition-colors duration-300"
-            :class="showMobileNav ? 'bg-gray-100' : ''"
-          >
-            <i
-              v-if="!showMobileNav"
-              class="pi pi-bars text-xl text-gray-700"
-            ></i>
-            <i
-              v-else
-              class="pi pi-times text-xl text-gray-700"
-            ></i>
+            :class="showMobileNav ? 'bg-gray-100' : ''">
+            <i v-if="!showMobileNav" class="pi pi-bars text-xl text-gray-700"></i>
+            <i v-else class="pi pi-times text-xl text-gray-700"></i>
           </button>
         </div>
       </div>

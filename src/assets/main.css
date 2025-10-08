@@ -5,26 +5,26 @@
 
 /* Global Font System */
 html {
-  font-family: "Open Sans", sans-serif;
+  font-family: sans-serif;
 }
 
 /* Font Classes */
-.font-inter {
-  font-family: "Inter", sans-serif !important;
+.font-space-grotesk {
+  font-family: "Space Grotesk", sans-serif !important;
 }
 
-.font-opensans {
-  font-family: "Open Sans", sans-serif !important;
+.font-sans {
+  font-family: sans-serif !important;
 }
 
 /* Typography Hierarchy */
 h1, h2, h3, h4, h5, h6 {
-  font-family: "Inter", sans-serif;
+  font-family: "Space Grotesk", sans-serif;
   font-weight: 600;
 }
 
 p, span, div, a, button {
-  font-family: "Open Sans", sans-serif;
+  font-family: sans-serif;
 }
 
 /* Global Scroll Animations */

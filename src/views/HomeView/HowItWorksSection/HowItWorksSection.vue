@@ -6,8 +6,8 @@
                 2
               </div>
               <div class="flex-1 pt-2">
-                <h3 class="text-lg font-bold text-black mb-2 font-inter">Accept Delivery Request</h3>
-                <p class="text-gray-600 font-opensans">Browse delivery requests along your route. Accept ones that fit your schedule.</p>
+                <h3 class="text-lg font-bold text-black mb-2 font-space-grotesk">Accept Delivery Request</h3>
+                <p class="text-gray-600 font-sans">Browse delivery requests along your route. Accept ones that fit your schedule.</p>
               </div>
             </div>
             
@@ -19,14 +19,14 @@
       <!-- Section Header -->
       <div class="text-center mb-20">
         <div class="inline-block mb-6">
-          <span class="text-blue-600 text-sm font-semibold uppercase tracking-wider border border-blue-200 px-4 py-2 rounded-full bg-white/50 backdrop-blur-sm font-inter">
+          <span class="text-blue-600 text-sm font-semibold uppercase tracking-wider border border-blue-200 px-4 py-2 rounded-full bg-white/50 backdrop-blur-sm font-space-grotesk">
             Simple Process
           </span>
         </div>
-        <h2 class="text-4xl md:text-5xl font-bold text-black mb-6 font-inter">
+        <h2 class="text-4xl md:text-5xl font-bold text-black mb-6 font-space-grotesk">
           How <span class="text-blue-600">PosterBox</span> Works
         </h2>
-        <p class="text-xl text-gray-600 max-w-3xl mx-auto leading-relaxed font-opensans">
+        <p class="text-xl text-gray-600 max-w-3xl mx-auto leading-relaxed font-sans">
           Connect senders with travelers in three easy steps. Safe, fast, and affordable delivery for everyone.
         </p>
       </div>
@@ -37,7 +37,7 @@
         <!-- For Senders -->
         <div class="space-y-8 scroll-animate-left">
           <div class="text-center lg:text-left">
-            <div class="inline-flex items-center bg-red-600 text-white px-6 py-3 rounded-xl font-bold text-lg mb-6 font-inter">
+            <div class="inline-flex items-center bg-red-600 text-white px-6 py-3 rounded-xl font-bold text-lg mb-6 font-space-grotesk">
               <img src="/images/mock1.png" alt="Package" class="w-6 h-6 mr-2 rounded">
               For Senders
             </div>
@@ -51,8 +51,8 @@
                 1
               </div>
               <div class="flex-1 pt-2">
-                <h3 class="text-lg font-bold text-black mb-2 font-inter">Post Your Package</h3>
-                <p class="text-gray-600 font-opensans">Upload package details, pickup & delivery locations. Set your preferred price.</p>
+                <h3 class="text-lg font-bold text-black mb-2 font-space-grotesk">Post Your Package</h3>
+                <p class="text-gray-600 font-sans">Upload package details, pickup & delivery locations. Set your preferred price.</p>
               </div>
             </div>
             
@@ -62,8 +62,8 @@
                 2
               </div>
               <div class="flex-1 pt-2">
-                <h3 class="text-lg font-bold text-black mb-2 font-inter">Choose a Traveler</h3>
-                <p class="text-gray-600 font-opensans">Browse verified travelers going your route. Select based on ratings and price.</p>
+                <h3 class="text-lg font-bold text-black mb-2 font-space-grotesk">Choose a Traveler</h3>
+                <p class="text-gray-600 font-sans">Browse verified travelers going your route. Select based on ratings and price.</p>
               </div>
             </div>
             
@@ -73,16 +73,16 @@
                 3
               </div>
               <div class="flex-1 pt-2">
-                <h3 class="text-lg font-bold text-black mb-2 font-inter">Track & Receive</h3>
-                <p class="text-gray-600 font-opensans">Real-time GPS tracking. Package delivered safely to your recipient.</p>
+                <h3 class="text-lg font-bold text-black mb-2 font-space-grotesk">Track & Receive</h3>
+                <p class="text-gray-600 font-sans">Real-time GPS tracking. Package delivered safely to your recipient.</p>
               </div>
             </div>
           </div>
           
           <!-- Sender Benefits -->
           <div class="bg-red-50 rounded-2xl p-6 border border-red-100">
-            <h4 class="font-bold text-black mb-3 font-inter">Why Senders Love PosterBox:</h4>
-            <ul class="space-y-2 text-gray-700 font-opensans">
+            <h4 class="font-bold text-black mb-3 font-space-grotesk">Why Senders Love PosterBox:</h4>
+            <ul class="space-y-2 text-gray-700 font-sans">
               <li class="flex items-center space-x-2">
                 <div class="w-2 h-2 bg-red-600 rounded-full"></div>
                 <span>Up to 70% cheaper than traditional couriers</span>
@@ -102,7 +102,7 @@
         <!-- For Travelers -->
         <div class="space-y-8 scroll-animate-right">
           <div class="text-center lg:text-left">
-            <div class="inline-flex items-center bg-blue-600 text-white px-6 py-3 rounded-xl font-bold text-lg mb-6 font-inter">
+            <div class="inline-flex items-center bg-blue-600 text-white px-6 py-3 rounded-xl font-bold text-lg mb-6 font-space-grotesk">
               <img src="/images/mock2.png" alt="Travel" class="w-6 h-6 mr-2 rounded">
               For Travelers
             </div>
@@ -116,8 +116,8 @@
                 1
               </div>
               <div class="flex-1 pt-2">
-                <h3 class="text-lg font-bold text-black mb-2 font-inter">Share Your Journey</h3>
-                <p class="text-gray-600 font-opensans">Post your travel route, dates, and available space for packages.</p>
+                <h3 class="text-lg font-bold text-black mb-2 font-space-grotesk">Share Your Journey</h3>
+                <p class="text-gray-600 font-sans">Post your travel route, dates, and available space for packages.</p>
               </div>
             </div>
             
@@ -127,8 +127,8 @@
                 2
               </div>
               <div class="flex-1 pt-2">
-                <h3 class="text-lg font-bold text-black mb-2 font-inter">Accept Requests</h3>
-                <p class="text-gray-600 font-opensans">Review package requests along your route. Accept what fits your schedule.</p>
+                <h3 class="text-lg font-bold text-black mb-2 font-space-grotesk">Accept Requests</h3>
+                <p class="text-gray-600 font-sans">Review package requests along your route. Accept what fits your schedule.</p>
               </div>
             </div>
             
@@ -138,16 +138,16 @@
                 3
               </div>
               <div class="flex-1 pt-2">
-                <h3 class="text-lg font-bold text-black mb-2 font-inter">Deliver & Earn</h3>
-                <p class="text-gray-600 font-opensans">Safe delivery, instant payment. Earn money while traveling!</p>
+                <h3 class="text-lg font-bold text-black mb-2 font-space-grotesk">Deliver & Earn</h3>
+                <p class="text-gray-600 font-sans">Safe delivery, instant payment. Earn money while traveling!</p>
               </div>
             </div>
           </div>
           
           <!-- Traveler Benefits -->
           <div class="bg-blue-50 rounded-2xl p-6 border border-blue-100">
-            <h4 class="font-bold text-black mb-3 font-inter">Why Travelers Choose PosterBox:</h4>
-            <ul class="space-y-2 text-gray-700 font-opensans">
+            <h4 class="font-bold text-black mb-3 font-space-grotesk">Why Travelers Choose PosterBox:</h4>
+            <ul class="space-y-2 text-gray-700 font-sans">
               <li class="flex items-center space-x-2">
                 <div class="w-2 h-2 bg-blue-600 rounded-full"></div>
                 <span>Earn ₦50-200 per delivery</span>
