@@ -1,0 +1,14 @@
+<script setup lang="ts">
+import { RouterView } from "vue-router";
+// import NavbarComp from "./components/NavbarComp";
+// import FooterComp from "./components/FooterComp";
+</script>
+
+<template>
+  <div>
+    <h1>Test Build</h1>
+    <RouterView />
+  </div>
+</template>
+
+<style scoped></style>
