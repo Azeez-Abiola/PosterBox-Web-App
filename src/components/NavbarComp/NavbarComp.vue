@@ -38,13 +38,13 @@
             <div 
               v-if="isRouteActive(link.route)"
               class="absolute bottom-0 left-1/2 transform -translate-x-1/2 w-6 h-0.5 bg-red-600 rounded-full"
-            ></div>
+            />
             
             <!-- Hover indicator -->
             <div 
               v-else
               class="absolute bottom-0 left-1/2 transform -translate-x-1/2 w-0 h-0.5 bg-red-600 rounded-full transition-all duration-300 group-hover:w-6"
-            ></div>
+            />
           </RouterLink>
         </li>
       </ul>

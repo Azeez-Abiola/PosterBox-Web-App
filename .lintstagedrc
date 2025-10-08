@@ -1,0 +1,7 @@
+{
+  "*.{js,ts,vue}": "eslint --fix",
+  "*.vue": [
+    "eslint --fix",
+    "node scripts/check-vue-syntax.js"
+  ]
+}

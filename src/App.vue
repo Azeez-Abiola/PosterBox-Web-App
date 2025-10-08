@@ -5,9 +5,9 @@ import FooterComp from "./components/FooterComp";
 </script>
 
 <template>
-  <NavbarComp />
-  <RouterView />
-  <FooterComp />
+  <NavbarComp/>
+  <RouterView/>
+  <FooterComp/>
 </template>
 
 <style scoped></style>

@@ -31,4 +31,30 @@ npm run dev
 ```sh
 npm run build
 ```
-# Posterbox
+
+### Linting and Syntax Checking
+
+```sh
+# Check for linting issues
+npm run lint
+
+# Fix automatically fixable issues
+npm run lint:fix
+
+# Check for Vue template syntax issues
+npm run check-syntax
+```
+
+## Preventing Build Errors
+
+To prevent "Invalid end tag" errors and other Vue template syntax issues:
+
+1. Review the [Vue Syntax Guide](./vue-syntax-guide.md) for common pitfalls
+2. Install recommended linting tools with [these instructions](./install-linting-tools.md)
+3. Run syntax checks before committing: `npm run check-syntax`
+4. Be careful with self-closing tags - avoid spaces before the closing bracket: `/>` not ` />`
+
+## Additional Documentation
+
+- [Vue Syntax Guide](./vue-syntax-guide.md) - Tips to prevent Vue template errors
+- [Linting Tools Installation](./install-linting-tools.md) - Setting up ESLint and other tools
